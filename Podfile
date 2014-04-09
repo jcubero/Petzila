@@ -7,7 +7,7 @@
 # ============================================
 
 # iOS Platform
-platform :ios, '7.0'
+platform :ios, ‘7.1’
 
 # Inhibits all the warnings from the CocoaPods libraries.
 inhibit_all_warnings!
@@ -21,17 +21,17 @@ link_with 'HereByApp'
 
 # Specifies the Xcode workspace that should contain all
 # the projects.
-workspace 'HereByApp'
+workspace ’Petzi’
 
 
 # pod 'ObjectiveDDP', :path => '../../../Open-Source-Projects/ObjectiveDDP'
 # pod 'MyiOSHelpers', :path => '../../../Open-Source-Projects/MyiOSHelpers'
 pod 'MyiOSHelpers', :git=> 'https://github.com/premosystems/MyiOSHelpers.git'
-pod 'MyMeteor', :git=> 'https://github.com/premosystems/MyMeteor.git'
+# pod 'MyMeteor', :git=> 'https://github.com/premosystems/MyMeteor.git'
 # pod 'MyMeteor', :path => '../../../Open-Source-Projects/MyMeteor'
 
-pod 'HBModel', :path => './Model'
-pod 'HBController', :path => './Controller'
+# pod 'HBModel', :path => './Model'
+# pod 'HBController', :path => './Controller'
 pod 'KPAStoryboardConvenience', '~>1.0.1'
 pod 'UIAlertView+Blocks', '~>0.8'
 pod 'FontAwesome+iOS', :git => "https://github.com/alexdrone/ios-fontawesome"
