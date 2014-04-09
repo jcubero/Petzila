@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780CF79F18F5E84900E31FE4 /* HBHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF79D18F5E84900E31FE4 /* HBHomeTabBarController.m */; };
+		780CF7A218F5E86100E31FE4 /* UITabBarController+HereBy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7A018F5E86100E31FE4 /* UITabBarController+HereBy.m */; };
+		780CF7A518F5E87D00E31FE4 /* PZLeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7A318F5E87D00E31FE4 /* PZLeftDrawerViewController.m */; };
+		780CF7A818F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7A618F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.m */; };
+		780CF7AB18F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7A918F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.m */; };
+		780CF7B218F5E8D700E31FE4 /* PZUserTableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7AC18F5E8D700E31FE4 /* PZUserTableViewControllerBase.m */; };
+		780CF7B318F5E8D700E31FE4 /* PZUserTableViewCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7AE18F5E8D700E31FE4 /* PZUserTableViewCellBase.m */; };
+		780CF7B418F5E8D700E31FE4 /* PZUserDetailViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7B018F5E8D700E31FE4 /* PZUserDetailViewControllerBase.m */; };
+		780CF7BB18F5E90200E31FE4 /* PZModelTableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7B518F5E90200E31FE4 /* PZModelTableViewControllerBase.m */; };
+		780CF7BC18F5E90200E31FE4 /* PZModelTableViewCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7B718F5E90200E31FE4 /* PZModelTableViewCellBase.m */; };
+		780CF7BD18F5E90200E31FE4 /* PZModelDetailViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7B918F5E90200E31FE4 /* PZModelDetailViewControllerBase.m */; };
+		780CF7C418F5E92D00E31FE4 /* PZPostTableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7BE18F5E92D00E31FE4 /* PZPostTableViewControllerBase.m */; };
+		780CF7C518F5E92D00E31FE4 /* PZPostTableViewCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7C018F5E92D00E31FE4 /* PZPostTableViewCellBase.m */; };
+		780CF7C618F5E92D00E31FE4 /* PZPostDetailViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7C218F5E92D00E31FE4 /* PZPostDetailViewControllerBase.m */; };
+		780CF7CD18F5E96000E31FE4 /* PZNetworkTableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7C718F5E96000E31FE4 /* PZNetworkTableViewControllerBase.m */; };
+		780CF7CE18F5E96000E31FE4 /* PZNetworkTableViewCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7C918F5E96000E31FE4 /* PZNetworkTableViewCellBase.m */; };
+		780CF7CF18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7CB18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.m */; };
+		780CF7D618F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7D018F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.m */; };
+		780CF7D718F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7D218F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.m */; };
+		780CF7D818F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7D418F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.m */; };
+		780CF7DB18F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7D918F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.m */; };
+		780CF7DE18F5E9C100E31FE4 /* PZViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7DC18F5E9C100E31FE4 /* PZViewControllerBase.m */; };
+		780CF7E118F5E9DE00E31FE4 /* PZTableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7DF18F5E9DE00E31FE4 /* PZTableViewControllerBase.m */; };
+		780CF7E418F5EA2700E31FE4 /* PZAlertsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7E218F5EA2700E31FE4 /* PZAlertsListViewController.m */; };
+		780CF7E718F5EA3D00E31FE4 /* PZCreateAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7E518F5EA3D00E31FE4 /* PZCreateAlertViewController.m */; };
+		780CF7E918F5EA5A00E31FE4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7E818F5EA5A00E31FE4 /* MainStoryboard_iPhone.storyboard */; };
+		780CF7EC18F5EAC900E31FE4 /* PZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7EA18F5EAC900E31FE4 /* PZAppDelegate.m */; };
+		780CF7EE18F5EAE500E31FE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7ED18F5EAE500E31FE4 /* Images.xcassets */; };
+		780CF7F018F5EAFE00E31FE4 /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7EF18F5EAFE00E31FE4 /* Environments.plist */; };
+		780CF7F218F5EB2300E31FE4 /* Petzi-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7F118F5EB2300E31FE4 /* Petzi-Info.plist */; };
+		780CF7F718F5EB4800E31FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7F618F5EB4800E31FE4 /* main.m */; };
+		780CF7FD18F5ECE800E31FE4 /* PetziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780CF7FC18F5ECE800E31FE4 /* PetziTests.m */; };
+		780CF7FF18F5ECFB00E31FE4 /* PetziTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7FE18F5ECFB00E31FE4 /* PetziTests-Info.plist */; };
+		780CF80218F5ED1500E31FE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 780CF80018F5ED1500E31FE4 /* InfoPlist.strings */; };
+		780CF80518F5ED4500E31FE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 780CF80318F5ED4500E31FE4 /* InfoPlist.strings */; };
+		B34BB5F8138A4481B5E99BA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6C634A26394AADB53F656C /* libPods.a */; };
+		FA74363D18E489100031CE34 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA74363C18E489100031CE34 /* CoreLocation.framework */; };
+		FA74363F18E489170031CE34 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA74363E18E489170031CE34 /* CoreBluetooth.framework */; };
+		FA8DAA4118C799570094495C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4018C799570094495C /* Foundation.framework */; };
+		FA8DAA4318C799570094495C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4218C799570094495C /* CoreGraphics.framework */; };
+		FA8DAA4518C799570094495C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4418C799570094495C /* UIKit.framework */; };
+		FA8DAA5A18C799570094495C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA5918C799570094495C /* XCTest.framework */; };
+		FA8DAA5B18C799580094495C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4018C799570094495C /* Foundation.framework */; };
+		FA8DAA5C18C799580094495C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4418C799570094495C /* UIKit.framework */; };
+		FAC337D118DE71AC00E1758B /* HBMainSettingsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC337D018DE71AC00E1758B /* HBMainSettingsMenuViewController.m */; };
+		FAC337D418DE71C600E1758B /* HBUserProfileSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC337D318DE71C600E1758B /* HBUserProfileSettingsViewController.m */; };
+		FAC337D718DE71D800E1758B /* HBPrivacySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC337D618DE71D800E1758B /* HBPrivacySettingsViewController.m */; };
+		FAC337DA18DE73C900E1758B /* HBAppPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC337D918DE73C900E1758B /* HBAppPreferencesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8DAA5D18C799580094495C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8DAA3518C799570094495C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8DAA3C18C799570094495C;
+			remoteInfo = HereByApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780CF79D18F5E84900E31FE4 /* HBHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBHomeTabBarController.m; path = Petzi/HBHomeTabBarController.m; sourceTree = SOURCE_ROOT; };
+		780CF79E18F5E84900E31FE4 /* HBHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBHomeTabBarController.h; path = Petzi/HBHomeTabBarController.h; sourceTree = SOURCE_ROOT; };
+		780CF7A018F5E86100E31FE4 /* UITabBarController+HereBy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+HereBy.m"; path = "Petzi/UITabBarController+HereBy.m"; sourceTree = SOURCE_ROOT; };
+		780CF7A118F5E86100E31FE4 /* UITabBarController+HereBy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+HereBy.h"; path = "Petzi/UITabBarController+HereBy.h"; sourceTree = SOURCE_ROOT; };
+		780CF7A318F5E87D00E31FE4 /* PZLeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZLeftDrawerViewController.m; path = Petzi/PZLeftDrawerViewController.m; sourceTree = SOURCE_ROOT; };
+		780CF7A418F5E87D00E31FE4 /* PZLeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZLeftDrawerViewController.h; path = Petzi/PZLeftDrawerViewController.h; sourceTree = SOURCE_ROOT; };
+		780CF7A618F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZRightDrawerDefaultViewController.m; path = Petzi/PZRightDrawerDefaultViewController.m; sourceTree = SOURCE_ROOT; };
+		780CF7A718F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZRightDrawerDefaultViewController.h; path = Petzi/PZRightDrawerDefaultViewController.h; sourceTree = SOURCE_ROOT; };
+		780CF7A918F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MyDrawerViewController+HBAdditions.m"; path = "Petzi/MyDrawerViewController+HBAdditions.m"; sourceTree = SOURCE_ROOT; };
+		780CF7AA18F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MyDrawerViewController+HBAdditions.h"; path = "Petzi/MyDrawerViewController+HBAdditions.h"; sourceTree = SOURCE_ROOT; };
+		780CF7AC18F5E8D700E31FE4 /* PZUserTableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZUserTableViewControllerBase.m; path = Petzi/PZUserTableViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7AD18F5E8D700E31FE4 /* PZUserTableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZUserTableViewControllerBase.h; path = Petzi/PZUserTableViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7AE18F5E8D700E31FE4 /* PZUserTableViewCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZUserTableViewCellBase.m; path = Petzi/PZUserTableViewCellBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7AF18F5E8D700E31FE4 /* PZUserTableViewCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZUserTableViewCellBase.h; path = Petzi/PZUserTableViewCellBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7B018F5E8D700E31FE4 /* PZUserDetailViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZUserDetailViewControllerBase.m; path = Petzi/PZUserDetailViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7B118F5E8D700E31FE4 /* PZUserDetailViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZUserDetailViewControllerBase.h; path = Petzi/PZUserDetailViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7B518F5E90200E31FE4 /* PZModelTableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZModelTableViewControllerBase.m; path = Petzi/PZModelTableViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7B618F5E90200E31FE4 /* PZModelTableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZModelTableViewControllerBase.h; path = Petzi/PZModelTableViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7B718F5E90200E31FE4 /* PZModelTableViewCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZModelTableViewCellBase.m; path = Petzi/PZModelTableViewCellBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7B818F5E90200E31FE4 /* PZModelTableViewCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZModelTableViewCellBase.h; path = Petzi/PZModelTableViewCellBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7B918F5E90200E31FE4 /* PZModelDetailViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZModelDetailViewControllerBase.m; path = Petzi/PZModelDetailViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7BA18F5E90200E31FE4 /* PZModelDetailViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZModelDetailViewControllerBase.h; path = Petzi/PZModelDetailViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7BE18F5E92D00E31FE4 /* PZPostTableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZPostTableViewControllerBase.m; path = Petzi/PZPostTableViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7BF18F5E92D00E31FE4 /* PZPostTableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZPostTableViewControllerBase.h; path = Petzi/PZPostTableViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7C018F5E92D00E31FE4 /* PZPostTableViewCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZPostTableViewCellBase.m; path = Petzi/PZPostTableViewCellBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7C118F5E92D00E31FE4 /* PZPostTableViewCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZPostTableViewCellBase.h; path = Petzi/PZPostTableViewCellBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7C218F5E92D00E31FE4 /* PZPostDetailViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZPostDetailViewControllerBase.m; path = Petzi/PZPostDetailViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7C318F5E92D00E31FE4 /* PZPostDetailViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZPostDetailViewControllerBase.h; path = Petzi/PZPostDetailViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7C718F5E96000E31FE4 /* PZNetworkTableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZNetworkTableViewControllerBase.m; path = Petzi/PZNetworkTableViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7C818F5E96000E31FE4 /* PZNetworkTableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZNetworkTableViewControllerBase.h; path = Petzi/PZNetworkTableViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7C918F5E96000E31FE4 /* PZNetworkTableViewCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZNetworkTableViewCellBase.m; path = Petzi/PZNetworkTableViewCellBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7CA18F5E96000E31FE4 /* PZNetworkTableViewCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZNetworkTableViewCellBase.h; path = Petzi/PZNetworkTableViewCellBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7CB18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZNetworkDetailViewControllerBase.m; path = Petzi/PZNetworkDetailViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7CC18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZNetworkDetailViewControllerBase.h; path = Petzi/PZNetworkDetailViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7D018F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZSuperNetworkTableViewControllerBase.m; path = Petzi/PZSuperNetworkTableViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7D118F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZSuperNetworkTableViewControllerBase.h; path = Petzi/PZSuperNetworkTableViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7D218F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZSuperNetworkTableViewCellBase.m; path = Petzi/PZSuperNetworkTableViewCellBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7D318F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZSuperNetworkTableViewCellBase.h; path = Petzi/PZSuperNetworkTableViewCellBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7D418F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZSuperNetworkDetailViewControllerBase.m; path = Petzi/PZSuperNetworkDetailViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7D518F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZSuperNetworkDetailViewControllerBase.h; path = Petzi/PZSuperNetworkDetailViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7D918F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MYEnvironmentConfig+Petzy.m"; path = "Petzi/MYEnvironmentConfig+Petzy.m"; sourceTree = SOURCE_ROOT; };
+		780CF7DA18F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MYEnvironmentConfig+Petzy.h"; path = "Petzi/MYEnvironmentConfig+Petzy.h"; sourceTree = SOURCE_ROOT; };
+		780CF7DC18F5E9C100E31FE4 /* PZViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZViewControllerBase.m; path = Petzi/PZViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7DD18F5E9C100E31FE4 /* PZViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZViewControllerBase.h; path = Petzi/PZViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7DF18F5E9DE00E31FE4 /* PZTableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZTableViewControllerBase.m; path = Petzi/PZTableViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		780CF7E018F5E9DE00E31FE4 /* PZTableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZTableViewControllerBase.h; path = Petzi/PZTableViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		780CF7E218F5EA2700E31FE4 /* PZAlertsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZAlertsListViewController.m; path = Petzi/PZAlertsListViewController.m; sourceTree = SOURCE_ROOT; };
+		780CF7E318F5EA2700E31FE4 /* PZAlertsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZAlertsListViewController.h; path = Petzi/PZAlertsListViewController.h; sourceTree = SOURCE_ROOT; };
+		780CF7E518F5EA3D00E31FE4 /* PZCreateAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZCreateAlertViewController.m; path = Petzi/PZCreateAlertViewController.m; sourceTree = SOURCE_ROOT; };
+		780CF7E618F5EA3D00E31FE4 /* PZCreateAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZCreateAlertViewController.h; path = Petzi/PZCreateAlertViewController.h; sourceTree = SOURCE_ROOT; };
+		780CF7E818F5EA5A00E31FE4 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = Petzi/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		780CF7EA18F5EAC900E31FE4 /* PZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZAppDelegate.m; path = Petzi/PZAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		780CF7EB18F5EAC900E31FE4 /* PZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZAppDelegate.h; path = Petzi/PZAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		780CF7ED18F5EAE500E31FE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Petzi/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		780CF7EF18F5EAFE00E31FE4 /* Environments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Environments.plist; path = Petzi/Environments.plist; sourceTree = SOURCE_ROOT; };
+		780CF7F118F5EB2300E31FE4 /* Petzi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Petzi-Info.plist"; path = "Petzi/Petzi-Info.plist"; sourceTree = SOURCE_ROOT; };
+		780CF7F618F5EB4800E31FE4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Petzi/main.m; sourceTree = SOURCE_ROOT; };
+		780CF7F818F5EB5F00E31FE4 /* Petzy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Petzy-Prefix.pch"; path = "Petzi/Petzy-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		780CF7FC18F5ECE800E31FE4 /* PetziTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PetziTests.m; path = PetziTests/PetziTests.m; sourceTree = SOURCE_ROOT; };
+		780CF7FE18F5ECFB00E31FE4 /* PetziTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PetziTests-Info.plist"; path = "PetziTests/PetziTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		780CF80118F5ED1500E31FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PetziTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		780CF80418F5ED4500E31FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PetziTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		7D6C634A26394AADB53F656C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDD2CC56445488D99C190B7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FA74363C18E489100031CE34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA74363E18E489170031CE34 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FA8DAA3D18C799570094495C /* HereByApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HereByApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8DAA4018C799570094495C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA8DAA4218C799570094495C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA8DAA4418C799570094495C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA8DAA5818C799570094495C /* HereByAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HereByAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8DAA5918C799570094495C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAC337CF18DE71AC00E1758B /* HBMainSettingsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMainSettingsMenuViewController.h; sourceTree = "<group>"; };
+		FAC337D018DE71AC00E1758B /* HBMainSettingsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMainSettingsMenuViewController.m; sourceTree = "<group>"; };
+		FAC337D218DE71C600E1758B /* HBUserProfileSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUserProfileSettingsViewController.h; sourceTree = "<group>"; };
+		FAC337D318DE71C600E1758B /* HBUserProfileSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUserProfileSettingsViewController.m; sourceTree = "<group>"; };
+		FAC337D518DE71D800E1758B /* HBPrivacySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPrivacySettingsViewController.h; sourceTree = "<group>"; };
+		FAC337D618DE71D800E1758B /* HBPrivacySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPrivacySettingsViewController.m; sourceTree = "<group>"; };
+		FAC337D818DE73C900E1758B /* HBAppPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAppPreferencesViewController.h; sourceTree = "<group>"; };
+		FAC337D918DE73C900E1758B /* HBAppPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAppPreferencesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8DAA3A18C799570094495C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA74363F18E489170031CE34 /* CoreBluetooth.framework in Frameworks */,
+				FA74363D18E489100031CE34 /* CoreLocation.framework in Frameworks */,
+				FA8DAA4318C799570094495C /* CoreGraphics.framework in Frameworks */,
+				FA8DAA4518C799570094495C /* UIKit.framework in Frameworks */,
+				FA8DAA4118C799570094495C /* Foundation.framework in Frameworks */,
+				B34BB5F8138A4481B5E99BA2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8DAA5518C799570094495C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8DAA5A18C799570094495C /* XCTest.framework in Frameworks */,
+				FA8DAA5C18C799580094495C /* UIKit.framework in Frameworks */,
+				FA8DAA5B18C799580094495C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA21924A18CD001000F3E275 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3379C18DE6B8F00E1758B /* Registration */,
+				FAC3379B18DE6B8A00E1758B /* Login */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FA41219218CCEF38003C345C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FA21924A18CD001000F3E275 /* Login */,
+				FA41219F18CCF04A003C345C /* Home */,
+				FAC337C718DE6FDB00E1758B /* Alerts */,
+				FAC337CE18DE719100E1758B /* Settings */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		FA41219318CCEF86003C345C /* Drawers */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7A918F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.m */,
+				780CF7AA18F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.h */,
+				780CF7A618F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.m */,
+				780CF7A718F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.h */,
+				780CF7A318F5E87D00E31FE4 /* PZLeftDrawerViewController.m */,
+				780CF7A418F5E87D00E31FE4 /* PZLeftDrawerViewController.h */,
+			);
+			name = Drawers;
+			sourceTree = "<group>";
+		};
+		FA41219418CCEF97003C345C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7DF18F5E9DE00E31FE4 /* PZTableViewControllerBase.m */,
+				780CF7E018F5E9DE00E31FE4 /* PZTableViewControllerBase.h */,
+				780CF7DC18F5E9C100E31FE4 /* PZViewControllerBase.m */,
+				780CF7DD18F5E9C100E31FE4 /* PZViewControllerBase.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		FA41219E18CCF034003C345C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4E5E318EB06B300C664D4 /* Navigation */,
+				FAD4E5AD18EA529F00C664D4 /* Model */,
+				FA4121A318CCF0E5003C345C /* Categories */,
+				FA41219418CCEF97003C345C /* Base */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		FA41219F18CCF04A003C345C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FA4121A318CCF0E5003C345C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7D918F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.m */,
+				780CF7DA18F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FA8DAA3418C799570094495C = {
+			isa = PBXGroup;
+			children = (
+				FA8DAA4618C799570094495C /* Petzi */,
+				FA8DAA5F18C799580094495C /* HereByAppTests */,
+				FA8DAA3F18C799570094495C /* Frameworks */,
+				FA8DAA3E18C799570094495C /* Products */,
+				BBDD2CC56445488D99C190B7 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8DAA3E18C799570094495C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DAA3D18C799570094495C /* HereByApp.app */,
+				FA8DAA5818C799570094495C /* HereByAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8DAA3F18C799570094495C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA74363E18E489170031CE34 /* CoreBluetooth.framework */,
+				FA74363C18E489100031CE34 /* CoreLocation.framework */,
+				FA8DAA4018C799570094495C /* Foundation.framework */,
+				FA8DAA4218C799570094495C /* CoreGraphics.framework */,
+				FA8DAA4418C799570094495C /* UIKit.framework */,
+				FA8DAA5918C799570094495C /* XCTest.framework */,
+				7D6C634A26394AADB53F656C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8DAA4618C799570094495C /* Petzi */ = {
+			isa = PBXGroup;
+			children = (
+				FA41219E18CCF034003C345C /* Common */,
+				FA41219218CCEF38003C345C /* Screens */,
+				780CF7E818F5EA5A00E31FE4 /* MainStoryboard_iPhone.storyboard */,
+				780CF7EA18F5EAC900E31FE4 /* PZAppDelegate.m */,
+				780CF7EB18F5EAC900E31FE4 /* PZAppDelegate.h */,
+				780CF7ED18F5EAE500E31FE4 /* Images.xcassets */,
+				FA8DAA4718C799570094495C /* Supporting Files */,
+			);
+			name = Petzi;
+			path = HereByApp;
+			sourceTree = "<group>";
+		};
+		FA8DAA4718C799570094495C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780CF80318F5ED4500E31FE4 /* InfoPlist.strings */,
+				780CF7EF18F5EAFE00E31FE4 /* Environments.plist */,
+				780CF7F118F5EB2300E31FE4 /* Petzi-Info.plist */,
+				780CF7F618F5EB4800E31FE4 /* main.m */,
+				780CF7F818F5EB5F00E31FE4 /* Petzy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8DAA5F18C799580094495C /* HereByAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7FC18F5ECE800E31FE4 /* PetziTests.m */,
+				FA8DAA6018C799580094495C /* Supporting Files */,
+			);
+			path = HereByAppTests;
+			sourceTree = "<group>";
+		};
+		FA8DAA6018C799580094495C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780CF80018F5ED1500E31FE4 /* InfoPlist.strings */,
+				780CF7FE18F5ECFB00E31FE4 /* PetziTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC3379B18DE6B8A00E1758B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FAC3379C18DE6B8F00E1758B /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		FAC337C718DE6FDB00E1758B /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7E518F5EA3D00E31FE4 /* PZCreateAlertViewController.m */,
+				780CF7E618F5EA3D00E31FE4 /* PZCreateAlertViewController.h */,
+				780CF7E218F5EA2700E31FE4 /* PZAlertsListViewController.m */,
+				780CF7E318F5EA2700E31FE4 /* PZAlertsListViewController.h */,
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		FAC337CE18DE719100E1758B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FAC337CF18DE71AC00E1758B /* HBMainSettingsMenuViewController.h */,
+				FAC337D018DE71AC00E1758B /* HBMainSettingsMenuViewController.m */,
+				FAC337D218DE71C600E1758B /* HBUserProfileSettingsViewController.h */,
+				FAC337D318DE71C600E1758B /* HBUserProfileSettingsViewController.m */,
+				FAC337D518DE71D800E1758B /* HBPrivacySettingsViewController.h */,
+				FAC337D618DE71D800E1758B /* HBPrivacySettingsViewController.m */,
+				FAC337D818DE73C900E1758B /* HBAppPreferencesViewController.h */,
+				FAC337D918DE73C900E1758B /* HBAppPreferencesViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		FAD4E5AD18EA529F00C664D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4E5B218EA52F900C664D4 /* User */,
+				FAD4E5B118EA52E700C664D4 /* Base */,
+				FAD4E5B018EA52D900C664D4 /* Post */,
+				FAD4E5AF18EA52BB00C664D4 /* Network */,
+				FAD4E5AE18EA52B400C664D4 /* SuperNetwork */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAD4E5AE18EA52B400C664D4 /* SuperNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7D018F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.m */,
+				780CF7D118F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.h */,
+				780CF7D218F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.m */,
+				780CF7D318F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.h */,
+				780CF7D418F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.m */,
+				780CF7D518F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.h */,
+			);
+			name = SuperNetwork;
+			sourceTree = "<group>";
+		};
+		FAD4E5AF18EA52BB00C664D4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7C718F5E96000E31FE4 /* PZNetworkTableViewControllerBase.m */,
+				780CF7C818F5E96000E31FE4 /* PZNetworkTableViewControllerBase.h */,
+				780CF7C918F5E96000E31FE4 /* PZNetworkTableViewCellBase.m */,
+				780CF7CA18F5E96000E31FE4 /* PZNetworkTableViewCellBase.h */,
+				780CF7CB18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.m */,
+				780CF7CC18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		FAD4E5B018EA52D900C664D4 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7BE18F5E92D00E31FE4 /* PZPostTableViewControllerBase.m */,
+				780CF7BF18F5E92D00E31FE4 /* PZPostTableViewControllerBase.h */,
+				780CF7C018F5E92D00E31FE4 /* PZPostTableViewCellBase.m */,
+				780CF7C118F5E92D00E31FE4 /* PZPostTableViewCellBase.h */,
+				780CF7C218F5E92D00E31FE4 /* PZPostDetailViewControllerBase.m */,
+				780CF7C318F5E92D00E31FE4 /* PZPostDetailViewControllerBase.h */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		FAD4E5B118EA52E700C664D4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7B518F5E90200E31FE4 /* PZModelTableViewControllerBase.m */,
+				780CF7B618F5E90200E31FE4 /* PZModelTableViewControllerBase.h */,
+				780CF7B718F5E90200E31FE4 /* PZModelTableViewCellBase.m */,
+				780CF7B818F5E90200E31FE4 /* PZModelTableViewCellBase.h */,
+				780CF7B918F5E90200E31FE4 /* PZModelDetailViewControllerBase.m */,
+				780CF7BA18F5E90200E31FE4 /* PZModelDetailViewControllerBase.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		FAD4E5B218EA52F900C664D4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7AC18F5E8D700E31FE4 /* PZUserTableViewControllerBase.m */,
+				780CF7AD18F5E8D700E31FE4 /* PZUserTableViewControllerBase.h */,
+				780CF7AE18F5E8D700E31FE4 /* PZUserTableViewCellBase.m */,
+				780CF7AF18F5E8D700E31FE4 /* PZUserTableViewCellBase.h */,
+				780CF7B018F5E8D700E31FE4 /* PZUserDetailViewControllerBase.m */,
+				780CF7B118F5E8D700E31FE4 /* PZUserDetailViewControllerBase.h */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		FAD4E5E318EB06B300C664D4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4E5E418EB06BE00C664D4 /* TabBar */,
+				FA41219318CCEF86003C345C /* Drawers */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		FAD4E5E418EB06BE00C664D4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				780CF7A018F5E86100E31FE4 /* UITabBarController+HereBy.m */,
+				780CF7A118F5E86100E31FE4 /* UITabBarController+HereBy.h */,
+				780CF79D18F5E84900E31FE4 /* HBHomeTabBarController.m */,
+				780CF79E18F5E84900E31FE4 /* HBHomeTabBarController.h */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8DAA3C18C799570094495C /* Petzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8DAA6918C799580094495C /* Build configuration list for PBXNativeTarget "Petzi" */;
+			buildPhases = (
+				345048B7FBD14056BF832BEE /* Check Pods Manifest.lock */,
+				FA8DAA3918C799570094495C /* Sources */,
+				FA8DAA3A18C799570094495C /* Frameworks */,
+				FA8DAA3B18C799570094495C /* Resources */,
+				A1CD930F87E14E32807EC9E9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petzi;
+			productName = HereByApp;
+			productReference = FA8DAA3D18C799570094495C /* HereByApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8DAA5718C799570094495C /* PetziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8DAA6C18C799580094495C /* Build configuration list for PBXNativeTarget "PetziTests" */;
+			buildPhases = (
+				FA8DAA5418C799570094495C /* Sources */,
+				FA8DAA5518C799570094495C /* Frameworks */,
+				FA8DAA5618C799570094495C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8DAA5E18C799580094495C /* PBXTargetDependency */,
+			);
+			name = PetziTests;
+			productName = HereByAppTests;
+			productReference = FA8DAA5818C799570094495C /* HereByAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8DAA3518C799570094495C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Premier Mobile Systems";
+				TargetAttributes = {
+					FA8DAA5718C799570094495C = {
+						TestTargetID = FA8DAA3C18C799570094495C;
+					};
+				};
+			};
+			buildConfigurationList = FA8DAA3818C799570094495C /* Build configuration list for PBXProject "Petzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA8DAA3418C799570094495C;
+			productRefGroup = FA8DAA3E18C799570094495C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8DAA3C18C799570094495C /* Petzi */,
+				FA8DAA5718C799570094495C /* PetziTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8DAA3B18C799570094495C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780CF7F018F5EAFE00E31FE4 /* Environments.plist in Resources */,
+				780CF80518F5ED4500E31FE4 /* InfoPlist.strings in Resources */,
+				780CF80218F5ED1500E31FE4 /* InfoPlist.strings in Resources */,
+				780CF7EE18F5EAE500E31FE4 /* Images.xcassets in Resources */,
+				780CF7F218F5EB2300E31FE4 /* Petzi-Info.plist in Resources */,
+				780CF7E918F5EA5A00E31FE4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				780CF7FF18F5ECFB00E31FE4 /* PetziTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8DAA5618C799570094495C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345048B7FBD14056BF832BEE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CD930F87E14E32807EC9E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8DAA3918C799570094495C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780CF7BD18F5E90200E31FE4 /* PZModelDetailViewControllerBase.m in Sources */,
+				780CF7E118F5E9DE00E31FE4 /* PZTableViewControllerBase.m in Sources */,
+				780CF79F18F5E84900E31FE4 /* HBHomeTabBarController.m in Sources */,
+				FAC337D718DE71D800E1758B /* HBPrivacySettingsViewController.m in Sources */,
+				780CF7D818F5E99400E31FE4 /* PZSuperNetworkDetailViewControllerBase.m in Sources */,
+				780CF7B218F5E8D700E31FE4 /* PZUserTableViewControllerBase.m in Sources */,
+				780CF7FD18F5ECE800E31FE4 /* PetziTests.m in Sources */,
+				780CF7AB18F5E8A300E31FE4 /* MyDrawerViewController+HBAdditions.m in Sources */,
+				780CF7CF18F5E96000E31FE4 /* PZNetworkDetailViewControllerBase.m in Sources */,
+				FAC337D418DE71C600E1758B /* HBUserProfileSettingsViewController.m in Sources */,
+				780CF7DB18F5E9AB00E31FE4 /* MYEnvironmentConfig+Petzy.m in Sources */,
+				780CF7A518F5E87D00E31FE4 /* PZLeftDrawerViewController.m in Sources */,
+				780CF7BC18F5E90200E31FE4 /* PZModelTableViewCellBase.m in Sources */,
+				FAC337D118DE71AC00E1758B /* HBMainSettingsMenuViewController.m in Sources */,
+				780CF7F718F5EB4800E31FE4 /* main.m in Sources */,
+				780CF7CD18F5E96000E31FE4 /* PZNetworkTableViewControllerBase.m in Sources */,
+				780CF7C518F5E92D00E31FE4 /* PZPostTableViewCellBase.m in Sources */,
+				780CF7E718F5EA3D00E31FE4 /* PZCreateAlertViewController.m in Sources */,
+				FAC337DA18DE73C900E1758B /* HBAppPreferencesViewController.m in Sources */,
+				780CF7BB18F5E90200E31FE4 /* PZModelTableViewControllerBase.m in Sources */,
+				780CF7C618F5E92D00E31FE4 /* PZPostDetailViewControllerBase.m in Sources */,
+				780CF7A218F5E86100E31FE4 /* UITabBarController+HereBy.m in Sources */,
+				780CF7D718F5E99400E31FE4 /* PZSuperNetworkTableViewCellBase.m in Sources */,
+				780CF7EC18F5EAC900E31FE4 /* PZAppDelegate.m in Sources */,
+				780CF7D618F5E99400E31FE4 /* PZSuperNetworkTableViewControllerBase.m in Sources */,
+				780CF7A818F5E88F00E31FE4 /* PZRightDrawerDefaultViewController.m in Sources */,
+				780CF7C418F5E92D00E31FE4 /* PZPostTableViewControllerBase.m in Sources */,
+				780CF7DE18F5E9C100E31FE4 /* PZViewControllerBase.m in Sources */,
+				780CF7E418F5EA2700E31FE4 /* PZAlertsListViewController.m in Sources */,
+				780CF7B318F5E8D700E31FE4 /* PZUserTableViewCellBase.m in Sources */,
+				780CF7CE18F5E96000E31FE4 /* PZNetworkTableViewCellBase.m in Sources */,
+				780CF7B418F5E8D700E31FE4 /* PZUserDetailViewControllerBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8DAA5418C799570094495C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8DAA5E18C799580094495C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8DAA3C18C799570094495C /* Petzi */;
+			targetProxy = FA8DAA5D18C799580094495C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		780CF80018F5ED1500E31FE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780CF80118F5ED1500E31FE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		780CF80318F5ED4500E31FE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780CF80418F5ED4500E31FE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4DBCA918E2038F0029286D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		FA4DBCAA18E2038F0029286D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Premier Mobile Systems (KWWL8P7F5W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByApp/HereByApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64B69ACD-E043-440E-9620-5EA5357DD989";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		FA4DBCAB18E2038F0029286D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HereByApp.app/HereByApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByAppTests/HereByAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AdHoc;
+		};
+		FA4DBCAC18E203970029286D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		FA4DBCAD18E203970029286D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Premier Mobile Systems (KWWL8P7F5W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByApp/HereByApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9AD0761B-7A72-4461-B60F-2E426593DCCD";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		FA4DBCAE18E203970029286D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HereByApp.app/HereByApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByAppTests/HereByAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		FA8DAA6718C799580094495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8DAA6818C799580094495C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8DAA6A18C799580094495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vincil Bishop (J6R8Q956T7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByApp/HereByApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0AB5ADAF-8223-49A2-98CE-B52C2A20B528";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA8DAA6B18C799580094495C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByApp/HereByApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA8DAA6D18C799580094495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HereByApp.app/HereByApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HereByAppTests/HereByAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA8DAA6E18C799580094495C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HereByApp.app/HereByApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereByApp/HereByApp-Prefix.pch";
+				INFOPLIST_FILE = "HereByAppTests/HereByAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8DAA3818C799570094495C /* Build configuration list for PBXProject "Petzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8DAA6718C799580094495C /* Debug */,
+				FA8DAA6818C799580094495C /* Release */,
+				FA4DBCAC18E203970029286D /* Distribution */,
+				FA4DBCA918E2038F0029286D /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8DAA6918C799580094495C /* Build configuration list for PBXNativeTarget "Petzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8DAA6A18C799580094495C /* Debug */,
+				FA8DAA6B18C799580094495C /* Release */,
+				FA4DBCAD18E203970029286D /* Distribution */,
+				FA4DBCAA18E2038F0029286D /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8DAA6C18C799580094495C /* Build configuration list for PBXNativeTarget "PetziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8DAA6D18C799580094495C /* Debug */,
+				FA8DAA6E18C799580094495C /* Release */,
+				FA4DBCAE18E203970029286D /* Distribution */,
+				FA4DBCAB18E2038F0029286D /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8DAA3518C799570094495C /* Project object */;
+}

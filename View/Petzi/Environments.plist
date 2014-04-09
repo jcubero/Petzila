@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Defaults</key>
+	<dict>
+		<key>httpURLFormat</key>
+		<string>https://%@</string>
+		<key>meteorURLFormat</key>
+		<string>wss://%@/websocket</string>
+	</dict>
+	<key>Debug</key>
+	<dict>
+		<key>host</key>
+		<string>premosystems.pagekite.me</string>
+		<key>httpURLFormat</key>
+		<string>http://%@</string>
+		<key>meteorURLFormat</key>
+		<string>ws://%@/websocket</string>
+	</dict>
+	<key>Debug-Meteor.com</key>
+	<dict>
+		<key>host</key>
+		<string>hereby.meteor.com</string>
+	</dict>
+	<key>AdHoc</key>
+	<dict>
+		<key>host</key>
+		<string>hereby.meteor.com</string>
+	</dict>
+	<key>Distribution</key>
+	<dict>
+		<key>host</key>
+		<string>www.hereby.us</string>
+	</dict>
+	<key>AdHocProduction</key>
+	<dict>
+		<key>host</key>
+		<string>www.hereby.us</string>
+	</dict>
+</dict>
+</plist>
