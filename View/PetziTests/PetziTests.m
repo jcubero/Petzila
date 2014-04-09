@@ -1,18 +1,18 @@
 //
-//  HereByAppTests.m
-//  HereByAppTests
+//  PetziTests.m
+//  PetziTests
 //
-//  Created by Joaquin Cubero on 3/5/14.
-//  Copyright (c) 2014 Petzila. All rights reserved.
+//  Created by Joaquin on 09/04/14.
+//  Copyright (c) 2014 Premier Mobile Systems. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface HereByAppTests : XCTestCase
+@interface PetziTests : XCTestCase
 
 @end
 
-@implementation HereByAppTests
+@implementation PetziTests
 
 - (void)setUp
 {

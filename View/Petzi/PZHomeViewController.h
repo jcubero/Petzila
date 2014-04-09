@@ -2,13 +2,13 @@
 //  HBHomeViewController.h
 //  HereByApp
 //
-//  Created by Vincil Bishop on 3/9/14.
-//  Copyright (c) 2014 Premier Mobile Systems. All rights reserved.
+//  Created by Joaquin Cubero on 4/9/14.
+//  Copyright (c) 2014 Petzila. All rights reserved.
 //
 
 #import "HBViewControllerBase.h"
 
-@interface HBHomeViewController : HBViewControllerBase
+@interface PZHomeViewController : PZViewControllerBase
 
 @property (nonatomic,strong) IBOutlet UILabel *nameLabel;
 @property (nonatomic,strong) IBOutlet UILabel *networkIdentifierLabel;

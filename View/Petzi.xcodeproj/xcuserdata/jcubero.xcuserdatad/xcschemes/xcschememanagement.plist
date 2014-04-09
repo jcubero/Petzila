@@ -2,8 +2,56 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Petzi.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>780CF80D18F5F5F100E31FE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780CF84418F5F68500E31FE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780CF87B18F5F6A800E31FE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780CF88818F5F6C100E31FE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780CF89818F5F77100E31FE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>780CF8BA18F5F77200E31FE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7827B9B718F5FA3C00572F2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7827B9D218F5FA3D00572F2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FA8DAA3C18C799570094495C</key>
 		<dict>
 			<key>primary</key>

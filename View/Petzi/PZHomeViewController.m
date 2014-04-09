@@ -1,27 +1,27 @@
 //
-//  HBHomeViewController.m
+//  PZHomeViewController.m
 //  HereByApp
 //
-//  Created by Vincil Bishop on 3/9/14.
-//  Copyright (c) 2014 Premier Mobile Systems. All rights reserved.
+//  Created by Joaquin Cubero on 4/9/14.
+//  Copyright (c) 2014 Petzila. All rights reserved.
 //
 
-#import "HBHomeViewController.h"
-#import "HBLoginViewController.h"
+#import "PZHomeViewController.h"
+#import "PZLoginViewController.h"
 
 
-@interface HBHomeViewController ()
+@interface PZHomeViewController ()
 
 @end
 
-@implementation HBHomeViewController
+@implementation PZHomeViewController
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Custom initialization
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNetworkJoined:) name:kHBNetworkController_NetworkJoined_Notification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNetworkJoined:) name:kPZNetworkController_NetworkJoined_Notification object:nil];
 
     }
     return self;
@@ -34,14 +34,14 @@
     if ([[MYMeteorClient sharedClient] userId]) {
         
         /*
-        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-            DDLogVerbose(@"superNetworks: %@",[HBSuperNetworkController sharedController].superNetworks);
-            [[HBSuperNetworkController sharedController] rangeSuperNetworks];
+        [[NSOperationQueue mainQueue] addOperationWitPZlock:^{
+            DDLogVerbose(@"superNetworks: %@",[PZSuperNetworkController sharedController].superNetworks);
+            [[PZSuperNetworkController sharedController] rangeSuperNetworks];
         } afterDelay:3];
          */
 
     } else {
-        HBLoginViewController *controller = [[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"HBLoginViewController"];
+        PZLoginViewController *controller = [[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"PZLoginViewController"];
         [self presentViewController:controller animated:YES completion:NULL];
 
     }
@@ -57,12 +57,12 @@
 
 - (void) handleNetworkJoined:(NSNotification*)notification
 {
-    [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+    [[NSOperationQueue mainQueue] addOperationWitPZlock:^{
         self.nameLabel.hidden = NO;
         self.networkIdentifierLabel.hidden = NO;
         
-        self.nameLabel.text = [HBNetworkController sharedController].currentNetwork.displayName;
-        self.networkIdentifierLabel.text = [HBNetworkController sharedController].currentNetwork.networkIdentifier;
+        self.nameLabel.text = [PZNetworkController sharedController].currentNetwork.displayName;
+        self.networkIdentifierLabel.text = [PZNetworkController sharedController].currentNetwork.networkIdentifier;
     }];
 }
 
