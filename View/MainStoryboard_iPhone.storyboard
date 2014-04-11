@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="mO7-oe-8sG"/>
                         <viewControllerLayoutGuide type="bottom" id="Jiz-X6-VUA"/>
                     </layoutGuides>
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="GfK-zC-Uqe" customClass="RDVKeyboardAvoidingScrollView">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="GfK-zC-Uqe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

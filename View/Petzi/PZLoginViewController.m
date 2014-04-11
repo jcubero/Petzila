@@ -1,18 +1,18 @@
 //
-//  HBLoginViewController.m
+//  PZLoginViewController.m
 //  HereByApp
 //
 //  Created by Vincil Bishop on 3/9/14.
 //  Copyright (c) 2014 Premier Mobile Systems. All rights reserved.
 //
 
-#import "HBLoginViewController.h"
+#import "PZLoginViewController.h"
 
-@interface HBLoginViewController ()
+@interface PZLoginViewController ()
 
 @end
 
-@implementation HBLoginViewController
+@implementation PZLoginViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
-    __block HBLoginViewController *blockSelf = self;
+    __block PZLoginViewController *blockSelf = self;
     
     self.loginBlock = ^void(NSString *email, NSString *password)
     {

@@ -21,7 +21,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Custom initialization
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNetworkJoined:) name:kPZNetworkController_NetworkJoined_Notification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNetworkJoined:) name:@"" object:nil];
 
     }
     return self;
@@ -57,13 +57,13 @@
 
 - (void) handleNetworkJoined:(NSNotification*)notification
 {
-    [[NSOperationQueue mainQueue] addOperationWitPZlock:^{
-        self.nameLabel.hidden = NO;
-        self.networkIdentifierLabel.hidden = NO;
-        
-        self.nameLabel.text = [PZNetworkController sharedController].currentNetwork.displayName;
-        self.networkIdentifierLabel.text = [PZNetworkController sharedController].currentNetwork.networkIdentifier;
-    }];
+//    [[NSOperationQueue mainQueue] addOperationWitPZlock:^{
+//        self.nameLabel.hidden = NO;
+//        self.networkIdentifierLabel.hidden = NO;
+//        
+//        self.nameLabel.text = [PZNetworkController sharedController].currentNetwork.displayName;
+//        self.networkIdentifierLabel.text = [PZNetworkController sharedController].currentNetwork.networkIdentifier;
+//    }];
 }
 
 - (void) dealloc

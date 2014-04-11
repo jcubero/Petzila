@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Petzila. All rights reserved.
 //
 
-#import "HBViewControllerBase.h"
+#import "PZViewControllerBase.h"
 
 @interface PZHomeViewController : PZViewControllerBase
 

@@ -1,2777 +1,807 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>283C3EA99C174C3ABB507FE2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/../Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>780CF7EF18F5EAFE00E31FE4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>Environments.plist</string>
-			<key>path</key>
-			<string>Petzi/Environments.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>780CF80618F5F1F400E31FE4</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ForgotPassword</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>780CF89C18F5F77100E31FE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>780CF89D18F5F77100E31FE4</string>
-				<string>780CF89E18F5F77100E31FE4</string>
-				<string>780CF89F18F5F77100E31FE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Other Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>780CF89D18F5F77100E31FE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AppKit.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/AppKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>780CF89E18F5F77100E31FE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>780CF89F18F5F77100E31FE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7827B9B418F5FA3C00572F2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>789F923718F5FC2100A899A5</string>
-				<string>789F924018F5FC3D00A899A5</string>
-				<string>789F925118F5FC6600A899A5</string>
-				<string>789F922E18F5FC0000A899A5</string>
-				<string>788FA66E18F601A800F2E801</string>
-				<string>788FA63B18F5FD0200F2E801</string>
-				<string>789F923618F5FC2100A899A5</string>
-				<string>788FA63218F5FCE700F2E801</string>
-				<string>789F925218F5FC6600A899A5</string>
-				<string>788FA63C18F5FD0200F2E801</string>
-				<string>789F923518F5FC2100A899A5</string>
-				<string>789F924818F5FC5500A899A5</string>
-				<string>788FA63D18F5FD0200F2E801</string>
-				<string>788FA64C18F5FD8D00F2E801</string>
-				<string>788FA64618F5FD6400F2E801</string>
-				<string>789F923E18F5FC3D00A899A5</string>
-				<string>788FA66818F600E100F2E801</string>
-				<string>788FA64518F5FD6400F2E801</string>
-				<string>788FA67218F6077600F2E801</string>
-				<string>789F924718F5FC5500A899A5</string>
-				<string>789F925018F5FC6600A899A5</string>
-				<string>788FA64918F5FD7A00F2E801</string>
-				<string>788FA65118F5FDA900F2E801</string>
-				<string>788FA63418F5FCE700F2E801</string>
-				<string>789F922D18F5FC0000A899A5</string>
-				<string>789F924918F5FC5500A899A5</string>
-				<string>788FA64018F5FD4A00F2E801</string>
-				<string>789F923F18F5FC3D00A899A5</string>
-				<string>788FA65218F5FDA900F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7827B9B518F5FA3C00572F2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7827B9BA18F5FA3C00572F2D</string>
-				<string>7827B9BD18F5FA3C00572F2D</string>
-				<string>7827B9BB18F5FA3C00572F2D</string>
-				<string>7827B9B918F5FA3C00572F2D</string>
-				<string>E6B544876D654E9B8236EBCC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7827B9B618F5FA3C00572F2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>788FA65518F5FF2B00F2E801</string>
-				<string>788FA66A18F6014200F2E801</string>
-				<string>788FA65418F5FF1600F2E801</string>
-				<string>788FA66C18F6018600F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7827B9B718F5FA3C00572F2D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7827B9E218F5FA3D00572F2D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>789F922818F5FB7500A899A5</string>
-				<string>7827B9B418F5FA3C00572F2D</string>
-				<string>7827B9B518F5FA3C00572F2D</string>
-				<string>7827B9B618F5FA3C00572F2D</string>
-				<string>283C3EA99C174C3ABB507FE2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Petzi</string>
-			<key>productName</key>
-			<string>Petzi</string>
-			<key>productReference</key>
-			<string>7827B9B818F5FA3C00572F2D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>7827B9B818F5FA3C00572F2D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Petzi.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7827B9B918F5FA3C00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8DAA4018C799570094495C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9BA18F5FA3C00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8DAA4218C799570094495C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9BB18F5FA3C00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8DAA4418C799570094495C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9BC18F5FA3C00572F2D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreData.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreData.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>7827B9BD18F5FA3C00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7827B9BC18F5FA3C00572F2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9CF18F5FA3D00572F2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7827B9E118F5FA3D00572F2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7827B9D018F5FA3D00572F2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7827B9D418F5FA3D00572F2D</string>
-				<string>7827B9D718F5FA3D00572F2D</string>
-				<string>7827B9D618F5FA3D00572F2D</string>
-				<string>7827B9D518F5FA3D00572F2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7827B9D118F5FA3D00572F2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7827B9D218F5FA3D00572F2D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7827B9E718F5FA3D00572F2D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7827B9CF18F5FA3D00572F2D</string>
-				<string>7827B9D018F5FA3D00572F2D</string>
-				<string>7827B9D118F5FA3D00572F2D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7827B9D918F5FA3D00572F2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>PetziTests</string>
-			<key>productName</key>
-			<string>PetziTests</string>
-			<key>productReference</key>
-			<string>7827B9D318F5FA3D00572F2D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>7827B9D318F5FA3D00572F2D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>PetziTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7827B9D418F5FA3D00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8DAA5918C799570094495C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9D518F5FA3D00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8DAA4018C799570094495C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9D618F5FA3D00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8DAA4418C799570094495C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9D718F5FA3D00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7827B9BC18F5FA3C00572F2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9D818F5FA3D00572F2D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FA8DAA3518C799570094495C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7827B9B718F5FA3C00572F2D</string>
-			<key>remoteInfo</key>
-			<string>Petzi</string>
-		</dict>
-		<key>7827B9D918F5FA3D00572F2D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7827B9B718F5FA3C00572F2D</string>
-			<key>targetProxy</key>
-			<string>7827B9D818F5FA3D00572F2D</string>
-		</dict>
-		<key>7827B9DA18F5FA3D00572F2D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7827B9E018F5FA3D00572F2D</string>
-				<string>7827B9DB18F5FA3D00572F2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PetziTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7827B9DB18F5FA3D00572F2D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7827B9DC18F5FA3D00572F2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7827B9DC18F5FA3D00572F2D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>PetziTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7827B9E018F5FA3D00572F2D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PetziTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7827B9E118F5FA3D00572F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7827B9E018F5FA3D00572F2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7827B9E218F5FA3D00572F2D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7827B9E318F5FA3D00572F2D</string>
-				<string>7827B9E418F5FA3D00572F2D</string>
-				<string>7827B9E518F5FA3D00572F2D</string>
-				<string>7827B9E618F5FA3D00572F2D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7827B9E318F5FA3D00572F2D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BBDD2CC56445488D99C190B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Petzi/Petzi-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7827B9E418F5FA3D00572F2D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BBDD2CC56445488D99C190B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Petzi/Petzi-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7827B9E518F5FA3D00572F2D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BBDD2CC56445488D99C190B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Petzi/Petzi-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Distribution</string>
-		</dict>
-		<key>7827B9E618F5FA3D00572F2D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BBDD2CC56445488D99C190B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Petzi/Petzi-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>AdHoc</string>
-		</dict>
-		<key>7827B9E718F5FA3D00572F2D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7827B9E818F5FA3D00572F2D</string>
-				<string>7827B9E918F5FA3D00572F2D</string>
-				<string>7827B9EA18F5FA3D00572F2D</string>
-				<string>7827B9EB18F5FA3D00572F2D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7827B9E818F5FA3D00572F2D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PetziTests/PetziTests-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7827B9E918F5FA3D00572F2D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PetziTests/PetziTests-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7827B9EA18F5FA3D00572F2D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PetziTests/PetziTests-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Distribution</string>
-		</dict>
-		<key>7827B9EB18F5FA3D00572F2D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Petzi/Petzi-Prefix.pch</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PetziTests/PetziTests-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>AdHoc</string>
-		</dict>
-		<key>788FA62C18F5FCE700F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZNetworkDetailViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZNetworkDetailViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA62D18F5FCE700F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZNetworkDetailViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZNetworkDetailViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA62E18F5FCE700F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZNetworkTableViewCellBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZNetworkTableViewCellBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA62F18F5FCE700F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZNetworkTableViewCellBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZNetworkTableViewCellBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63018F5FCE700F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZNetworkTableViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZNetworkTableViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63118F5FCE700F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZNetworkTableViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZNetworkTableViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63218F5FCE700F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA62D18F5FCE700F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA63418F5FCE700F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA63118F5FCE700F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA63518F5FD0200F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZSuperNetworkDetailViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZSuperNetworkDetailViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63618F5FD0200F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZSuperNetworkDetailViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZSuperNetworkDetailViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63718F5FD0200F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZSuperNetworkTableViewCellBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZSuperNetworkTableViewCellBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63818F5FD0200F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZSuperNetworkTableViewCellBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZSuperNetworkTableViewCellBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63918F5FD0200F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZSuperNetworkTableViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZSuperNetworkTableViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63A18F5FD0200F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZSuperNetworkTableViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZSuperNetworkTableViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63B18F5FD0200F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA63618F5FD0200F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA63C18F5FD0200F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA63818F5FD0200F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA63D18F5FD0200F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA63A18F5FD0200F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA63E18F5FD4A00F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MYEnvironmentConfig+Petzy.h</string>
-			<key>path</key>
-			<string>Petzi/MYEnvironmentConfig+Petzy.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA63F18F5FD4A00F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MYEnvironmentConfig+Petzy.m</string>
-			<key>path</key>
-			<string>Petzi/MYEnvironmentConfig+Petzy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64018F5FD4A00F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA63F18F5FD4A00F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA64118F5FD6400F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZTableViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZTableViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64218F5FD6400F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZTableViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZTableViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64318F5FD6400F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64418F5FD6400F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64518F5FD6400F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA64218F5FD6400F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA64618F5FD6400F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA64418F5FD6400F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA64718F5FD7A00F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZLoginViewController.h</string>
-			<key>path</key>
-			<string>Petzi/PZLoginViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64818F5FD7A00F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZLoginViewController.m</string>
-			<key>path</key>
-			<string>Petzi/PZLoginViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64918F5FD7A00F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA64818F5FD7A00F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA64A18F5FD8D00F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZHomeViewController.h</string>
-			<key>path</key>
-			<string>Petzi/PZHomeViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64B18F5FD8D00F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZHomeViewController.m</string>
-			<key>path</key>
-			<string>Petzi/PZHomeViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64C18F5FD8D00F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA64B18F5FD8D00F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA64D18F5FDA900F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZAlertsListViewController.h</string>
-			<key>path</key>
-			<string>Petzi/PZAlertsListViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64E18F5FDA900F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZAlertsListViewController.m</string>
-			<key>path</key>
-			<string>Petzi/PZAlertsListViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA64F18F5FDA900F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZCreateAlertViewController.h</string>
-			<key>path</key>
-			<string>Petzi/PZCreateAlertViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA65018F5FDA900F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZCreateAlertViewController.m</string>
-			<key>path</key>
-			<string>Petzi/PZCreateAlertViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA65118F5FDA900F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA64E18F5FDA900F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA65218F5FDA900F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA65018F5FDA900F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA65318F5FF1600F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>path</key>
-			<string>MainStoryboard_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA65418F5FF1600F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA65318F5FF1600F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA65518F5FF2B00F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>780CF7EF18F5EAFE00E31FE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA66618F600E100F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZAppDelegate.h</string>
-			<key>path</key>
-			<string>Petzi/PZAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA66718F600E100F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZAppDelegate.m</string>
-			<key>path</key>
-			<string>Petzi/PZAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA66818F600E100F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA66718F600E100F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA66918F6014200F2E801</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>name</key>
-			<string>Images.xcassets</string>
-			<key>path</key>
-			<string>Petzi/Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA66A18F6014200F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA66918F6014200F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA66B18F6018600F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Petzi-Info.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA66C18F6018600F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA66B18F6018600F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA66D18F601A800F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA66E18F601A800F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA66D18F601A800F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>788FA67118F605D300F2E801</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Petzy-Prefix.pch</string>
-			<key>path</key>
-			<string>Petzi/Petzy-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>788FA67218F6077600F2E801</key>
-		<dict>
-			<key>fileRef</key>
-			<string>788FA62F18F5FCE700F2E801</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F922818F5FB7500A899A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>789F922918F5FC0000A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZHomeTabBarController.h</string>
-			<key>path</key>
-			<string>Petzi/PZHomeTabBarController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F922A18F5FC0000A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZHomeTabBarController.m</string>
-			<key>path</key>
-			<string>Petzi/PZHomeTabBarController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F922B18F5FC0000A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITabBarController+HereBy.h</string>
-			<key>path</key>
-			<string>Petzi/UITabBarController+HereBy.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F922C18F5FC0000A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITabBarController+HereBy.m</string>
-			<key>path</key>
-			<string>Petzi/UITabBarController+HereBy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F922D18F5FC0000A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F922A18F5FC0000A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F922E18F5FC0000A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F922C18F5FC0000A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F922F18F5FC2100A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MyDrawerViewController+HBAdditions.h</string>
-			<key>path</key>
-			<string>Petzi/MyDrawerViewController+HBAdditions.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923018F5FC2100A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MyDrawerViewController+HBAdditions.m</string>
-			<key>path</key>
-			<string>Petzi/MyDrawerViewController+HBAdditions.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923118F5FC2100A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZLeftDrawerViewController.h</string>
-			<key>path</key>
-			<string>Petzi/PZLeftDrawerViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923218F5FC2100A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZLeftDrawerViewController.m</string>
-			<key>path</key>
-			<string>Petzi/PZLeftDrawerViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923318F5FC2100A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZRightDrawerDefaultViewController.h</string>
-			<key>path</key>
-			<string>Petzi/PZRightDrawerDefaultViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923418F5FC2100A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZRightDrawerDefaultViewController.m</string>
-			<key>path</key>
-			<string>Petzi/PZRightDrawerDefaultViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923518F5FC2100A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F923018F5FC2100A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F923618F5FC2100A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F923218F5FC2100A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F923718F5FC2100A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F923418F5FC2100A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F923818F5FC3D00A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZUserDetailViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZUserDetailViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923918F5FC3D00A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZUserDetailViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZUserDetailViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923A18F5FC3D00A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZUserTableViewCellBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZUserTableViewCellBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923B18F5FC3D00A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZUserTableViewCellBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZUserTableViewCellBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923C18F5FC3D00A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZUserTableViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZUserTableViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923D18F5FC3D00A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZUserTableViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZUserTableViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F923E18F5FC3D00A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F923918F5FC3D00A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F923F18F5FC3D00A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F923B18F5FC3D00A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F924018F5FC3D00A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F923D18F5FC3D00A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F924118F5FC5500A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZModelDetailViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZModelDetailViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924218F5FC5500A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZModelDetailViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZModelDetailViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924318F5FC5500A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZModelTableViewCellBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZModelTableViewCellBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924418F5FC5500A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZModelTableViewCellBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZModelTableViewCellBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924518F5FC5500A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZModelTableViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZModelTableViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924618F5FC5500A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZModelTableViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZModelTableViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924718F5FC5500A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F924218F5FC5500A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F924818F5FC5500A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F924418F5FC5500A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F924918F5FC5500A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F924618F5FC5500A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F924A18F5FC6600A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZPostDetailViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZPostDetailViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924B18F5FC6600A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZPostDetailViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZPostDetailViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924C18F5FC6600A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZPostTableViewCellBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZPostTableViewCellBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924D18F5FC6600A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZPostTableViewCellBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZPostTableViewCellBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924E18F5FC6600A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PZPostTableViewControllerBase.h</string>
-			<key>path</key>
-			<string>Petzi/PZPostTableViewControllerBase.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F924F18F5FC6600A899A5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PZPostTableViewControllerBase.m</string>
-			<key>path</key>
-			<string>Petzi/PZPostTableViewControllerBase.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>789F925018F5FC6600A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F924B18F5FC6600A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F925118F5FC6600A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F924D18F5FC6600A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789F925218F5FC6600A899A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789F924F18F5FC6600A899A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D6C634A26394AADB53F656C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BBDD2CC56445488D99C190B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>../Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6B544876D654E9B8236EBCC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D6C634A26394AADB53F656C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA21924A18CD001000F3E275</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>780CF80618F5F1F400E31FE4</string>
-				<string>FAC3379C18DE6B8F00E1758B</string>
-				<string>FAC3379B18DE6B8A00E1758B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Login</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA41219218CCEF38003C345C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA65318F5FF1600F2E801</string>
-				<string>FA21924A18CD001000F3E275</string>
-				<string>FA41219F18CCF04A003C345C</string>
-				<string>FAC337C718DE6FDB00E1758B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Screens</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA41219318CCEF86003C345C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>789F922F18F5FC2100A899A5</string>
-				<string>789F923018F5FC2100A899A5</string>
-				<string>789F923118F5FC2100A899A5</string>
-				<string>789F923218F5FC2100A899A5</string>
-				<string>789F923318F5FC2100A899A5</string>
-				<string>789F923418F5FC2100A899A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Drawers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA41219418CCEF97003C345C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA64118F5FD6400F2E801</string>
-				<string>788FA64218F5FD6400F2E801</string>
-				<string>788FA64318F5FD6400F2E801</string>
-				<string>788FA64418F5FD6400F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA41219E18CCF034003C345C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD4E5E318EB06B300C664D4</string>
-				<string>FAD4E5AD18EA529F00C664D4</string>
-				<string>FA4121A318CCF0E5003C345C</string>
-				<string>FA41219418CCEF97003C345C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Common</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA41219F18CCF04A003C345C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA64A18F5FD8D00F2E801</string>
-				<string>788FA64B18F5FD8D00F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Home</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA4121A318CCF0E5003C345C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA63E18F5FD4A00F2E801</string>
-				<string>788FA63F18F5FD4A00F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Categories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA4DBCA918E2038F0029286D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>AdHoc</string>
-		</dict>
-		<key>FA4DBCAC18E203970029286D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Distribution</string>
-		</dict>
-		<key>FA74363C18E489100031CE34</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreLocation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreLocation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FA74363E18E489170031CE34</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreBluetooth.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreBluetooth.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FA8DAA3418C799570094495C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FA8DAA4618C799570094495C</string>
-				<string>7827B9DA18F5FA3D00572F2D</string>
-				<string>FA8DAA3F18C799570094495C</string>
-				<string>FA8DAA3E18C799570094495C</string>
-				<string>BBDD2CC56445488D99C190B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA8DAA3518C799570094495C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>HB</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Premier Mobile Systems</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>7827B9D218F5FA3D00572F2D</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>7827B9B718F5FA3C00572F2D</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FA8DAA3818C799570094495C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FA8DAA3418C799570094495C</string>
-			<key>productRefGroup</key>
-			<string>FA8DAA3E18C799570094495C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7827B9B718F5FA3C00572F2D</string>
-				<string>7827B9D218F5FA3D00572F2D</string>
-			</array>
-		</dict>
-		<key>FA8DAA3818C799570094495C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FA8DAA6718C799580094495C</string>
-				<string>FA8DAA6818C799580094495C</string>
-				<string>FA4DBCAC18E203970029286D</string>
-				<string>FA4DBCA918E2038F0029286D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FA8DAA3E18C799570094495C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7827B9B818F5FA3C00572F2D</string>
-				<string>7827B9D318F5FA3D00572F2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA8DAA3F18C799570094495C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FA74363E18E489170031CE34</string>
-				<string>FA74363C18E489100031CE34</string>
-				<string>FA8DAA4018C799570094495C</string>
-				<string>FA8DAA4218C799570094495C</string>
-				<string>FA8DAA4418C799570094495C</string>
-				<string>FA8DAA5918C799570094495C</string>
-				<string>7D6C634A26394AADB53F656C</string>
-				<string>7827B9BC18F5FA3C00572F2D</string>
-				<string>780CF89C18F5F77100E31FE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA8DAA4018C799570094495C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FA8DAA4218C799570094495C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FA8DAA4418C799570094495C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FA8DAA4618C799570094495C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA66918F6014200F2E801</string>
-				<string>788FA66618F600E100F2E801</string>
-				<string>788FA66718F600E100F2E801</string>
-				<string>FA41219E18CCF034003C345C</string>
-				<string>FA41219218CCEF38003C345C</string>
-				<string>FA8DAA4718C799570094495C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Petzi</string>
-			<key>path</key>
-			<string>HereByApp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA8DAA4718C799570094495C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA67118F605D300F2E801</string>
-				<string>788FA66D18F601A800F2E801</string>
-				<string>788FA66B18F6018600F2E801</string>
-				<string>780CF7EF18F5EAFE00E31FE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA8DAA5918C799570094495C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FA8DAA6718C799580094495C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FA8DAA6818C799580094495C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_TREAT_WARNINGS_AS_ERRORS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FAC3379B18DE6B8A00E1758B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA64718F5FD7A00F2E801</string>
-				<string>788FA64818F5FD7A00F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Login</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAC3379C18DE6B8F00E1758B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Registration</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAC337C718DE6FDB00E1758B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA64D18F5FDA900F2E801</string>
-				<string>788FA64E18F5FDA900F2E801</string>
-				<string>788FA64F18F5FDA900F2E801</string>
-				<string>788FA65018F5FDA900F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Alerts</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5AD18EA529F00C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD4E5B218EA52F900C664D4</string>
-				<string>FAD4E5B118EA52E700C664D4</string>
-				<string>FAD4E5B018EA52D900C664D4</string>
-				<string>FAD4E5AF18EA52BB00C664D4</string>
-				<string>FAD4E5AE18EA52B400C664D4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5AE18EA52B400C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA63518F5FD0200F2E801</string>
-				<string>788FA63618F5FD0200F2E801</string>
-				<string>788FA63718F5FD0200F2E801</string>
-				<string>788FA63818F5FD0200F2E801</string>
-				<string>788FA63918F5FD0200F2E801</string>
-				<string>788FA63A18F5FD0200F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SuperNetwork</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5AF18EA52BB00C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>788FA62C18F5FCE700F2E801</string>
-				<string>788FA62D18F5FCE700F2E801</string>
-				<string>788FA62E18F5FCE700F2E801</string>
-				<string>788FA62F18F5FCE700F2E801</string>
-				<string>788FA63018F5FCE700F2E801</string>
-				<string>788FA63118F5FCE700F2E801</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Network</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5B018EA52D900C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>789F924A18F5FC6600A899A5</string>
-				<string>789F924B18F5FC6600A899A5</string>
-				<string>789F924C18F5FC6600A899A5</string>
-				<string>789F924D18F5FC6600A899A5</string>
-				<string>789F924E18F5FC6600A899A5</string>
-				<string>789F924F18F5FC6600A899A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Post</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5B118EA52E700C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>789F924118F5FC5500A899A5</string>
-				<string>789F924218F5FC5500A899A5</string>
-				<string>789F924318F5FC5500A899A5</string>
-				<string>789F924418F5FC5500A899A5</string>
-				<string>789F924518F5FC5500A899A5</string>
-				<string>789F924618F5FC5500A899A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5B218EA52F900C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>789F923818F5FC3D00A899A5</string>
-				<string>789F923918F5FC3D00A899A5</string>
-				<string>789F923A18F5FC3D00A899A5</string>
-				<string>789F923B18F5FC3D00A899A5</string>
-				<string>789F923C18F5FC3D00A899A5</string>
-				<string>789F923D18F5FC3D00A899A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>User</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5E318EB06B300C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAD4E5E418EB06BE00C664D4</string>
-				<string>FA41219318CCEF86003C345C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Navigation</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAD4E5E418EB06BE00C664D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>789F922918F5FC0000A899A5</string>
-				<string>789F922A18F5FC0000A899A5</string>
-				<string>789F922B18F5FC0000A899A5</string>
-				<string>789F922C18F5FC0000A899A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TabBar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FA8DAA3518C799570094495C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7827B9B918F5FA3C00572F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4018C799570094495C /* Foundation.framework */; };
+		7827B9BA18F5FA3C00572F2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4218C799570094495C /* CoreGraphics.framework */; };
+		7827B9BB18F5FA3C00572F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4418C799570094495C /* UIKit.framework */; };
+		7827B9BD18F5FA3C00572F2D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7827B9BC18F5FA3C00572F2D /* CoreData.framework */; };
+		7827B9D418F5FA3D00572F2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA5918C799570094495C /* XCTest.framework */; };
+		7827B9D518F5FA3D00572F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4018C799570094495C /* Foundation.framework */; };
+		7827B9D618F5FA3D00572F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4418C799570094495C /* UIKit.framework */; };
+		7827B9D718F5FA3D00572F2D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7827B9BC18F5FA3C00572F2D /* CoreData.framework */; };
+		7827B9E118F5FA3D00572F2D /* PetziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7827B9E018F5FA3D00572F2D /* PetziTests.m */; };
+		788FA64018F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA63F18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m */; };
+		788FA64618F5FD6400F2E801 /* PZViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA64418F5FD6400F2E801 /* PZViewControllerBase.m */; };
+		788FA64918F5FD7A00F2E801 /* PZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA64818F5FD7A00F2E801 /* PZLoginViewController.m */; };
+		788FA64C18F5FD8D00F2E801 /* PZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA64B18F5FD8D00F2E801 /* PZHomeViewController.m */; };
+		788FA65218F5FDA900F2E801 /* PZCreateAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA65018F5FDA900F2E801 /* PZCreateAlertViewController.m */; };
+		788FA65418F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788FA65318F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard */; };
+		788FA65518F5FF2B00F2E801 /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7EF18F5EAFE00E31FE4 /* Environments.plist */; };
+		788FA66818F600E100F2E801 /* PZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA66718F600E100F2E801 /* PZAppDelegate.m */; };
+		788FA66A18F6014200F2E801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788FA66918F6014200F2E801 /* Images.xcassets */; };
+		788FA66C18F6018600F2E801 /* Petzi-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788FA66B18F6018600F2E801 /* Petzi-Info.plist */; };
+		788FA66E18F601A800F2E801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA66D18F601A800F2E801 /* main.m */; };
+		E6B544876D654E9B8236EBCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6C634A26394AADB53F656C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7827B9D818F5FA3D00572F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8DAA3518C799570094495C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7827B9B718F5FA3C00572F2D;
+			remoteInfo = Petzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780CF7EF18F5EAFE00E31FE4 /* Environments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Environments.plist; path = Petzi/Environments.plist; sourceTree = SOURCE_ROOT; };
+		780CF89D18F5F77100E31FE4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		780CF89E18F5F77100E31FE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		780CF89F18F5F77100E31FE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7827B9B818F5FA3C00572F2D /* Petzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827B9BC18F5FA3C00572F2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7827B9D318F5FA3D00572F2D /* PetziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7827B9DC18F5FA3D00572F2D /* PetziTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetziTests-Info.plist"; sourceTree = "<group>"; };
+		7827B9E018F5FA3D00572F2D /* PetziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetziTests.m; sourceTree = "<group>"; };
+		788FA63E18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MYEnvironmentConfig+Petzy.h"; path = "Petzi/MYEnvironmentConfig+Petzy.h"; sourceTree = SOURCE_ROOT; };
+		788FA63F18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MYEnvironmentConfig+Petzy.m"; path = "Petzi/MYEnvironmentConfig+Petzy.m"; sourceTree = SOURCE_ROOT; };
+		788FA64318F5FD6400F2E801 /* PZViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZViewControllerBase.h; path = Petzi/PZViewControllerBase.h; sourceTree = SOURCE_ROOT; };
+		788FA64418F5FD6400F2E801 /* PZViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZViewControllerBase.m; path = Petzi/PZViewControllerBase.m; sourceTree = SOURCE_ROOT; };
+		788FA64718F5FD7A00F2E801 /* PZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZLoginViewController.h; path = Petzi/PZLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		788FA64818F5FD7A00F2E801 /* PZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZLoginViewController.m; path = Petzi/PZLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		788FA64A18F5FD8D00F2E801 /* PZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZHomeViewController.h; path = Petzi/PZHomeViewController.h; sourceTree = SOURCE_ROOT; };
+		788FA64B18F5FD8D00F2E801 /* PZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZHomeViewController.m; path = Petzi/PZHomeViewController.m; sourceTree = SOURCE_ROOT; };
+		788FA64F18F5FDA900F2E801 /* PZCreateAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZCreateAlertViewController.h; path = Petzi/PZCreateAlertViewController.h; sourceTree = SOURCE_ROOT; };
+		788FA65018F5FDA900F2E801 /* PZCreateAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZCreateAlertViewController.m; path = Petzi/PZCreateAlertViewController.m; sourceTree = SOURCE_ROOT; };
+		788FA65318F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		788FA66618F600E100F2E801 /* PZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZAppDelegate.h; path = Petzi/PZAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		788FA66718F600E100F2E801 /* PZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZAppDelegate.m; path = Petzi/PZAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		788FA66918F6014200F2E801 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Petzi/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		788FA66B18F6018600F2E801 /* Petzi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Petzi-Info.plist"; sourceTree = SOURCE_ROOT; };
+		788FA66D18F601A800F2E801 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		788FA67118F605D300F2E801 /* Petzi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Petzi-Prefix.pch"; path = "Petzi/Petzi-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7D6C634A26394AADB53F656C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDD2CC56445488D99C190B7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FA74363C18E489100031CE34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA74363E18E489170031CE34 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FA8DAA4018C799570094495C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA8DAA4218C799570094495C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA8DAA4418C799570094495C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA8DAA5918C799570094495C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7827B9B518F5FA3C00572F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827B9BA18F5FA3C00572F2D /* CoreGraphics.framework in Frameworks */,
+				7827B9BD18F5FA3C00572F2D /* CoreData.framework in Frameworks */,
+				7827B9BB18F5FA3C00572F2D /* UIKit.framework in Frameworks */,
+				7827B9B918F5FA3C00572F2D /* Foundation.framework in Frameworks */,
+				E6B544876D654E9B8236EBCC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827B9D018F5FA3D00572F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827B9D418F5FA3D00572F2D /* XCTest.framework in Frameworks */,
+				7827B9D718F5FA3D00572F2D /* CoreData.framework in Frameworks */,
+				7827B9D618F5FA3D00572F2D /* UIKit.framework in Frameworks */,
+				7827B9D518F5FA3D00572F2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780CF80618F5F1F400E31FE4 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		780CF89C18F5F77100E31FE4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780CF89D18F5F77100E31FE4 /* AppKit.framework */,
+				780CF89E18F5F77100E31FE4 /* CoreData.framework */,
+				780CF89F18F5F77100E31FE4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7827B9DA18F5FA3D00572F2D /* PetziTests */ = {
+			isa = PBXGroup;
+			children = (
+				7827B9E018F5FA3D00572F2D /* PetziTests.m */,
+				7827B9DB18F5FA3D00572F2D /* Supporting Files */,
+			);
+			path = PetziTests;
+			sourceTree = "<group>";
+		};
+		7827B9DB18F5FA3D00572F2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7827B9DC18F5FA3D00572F2D /* PetziTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA21924A18CD001000F3E275 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				780CF80618F5F1F400E31FE4 /* ForgotPassword */,
+				FAC3379C18DE6B8F00E1758B /* Registration */,
+				FAC3379B18DE6B8A00E1758B /* Login */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FA41219218CCEF38003C345C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				788FA65318F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard */,
+				FA21924A18CD001000F3E275 /* Login */,
+				FA41219F18CCF04A003C345C /* Home */,
+				FAC337C718DE6FDB00E1758B /* Alerts */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		FA41219418CCEF97003C345C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				788FA64318F5FD6400F2E801 /* PZViewControllerBase.h */,
+				788FA64418F5FD6400F2E801 /* PZViewControllerBase.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		FA41219E18CCF034003C345C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4E5E318EB06B300C664D4 /* Navigation */,
+				FAD4E5AD18EA529F00C664D4 /* Model */,
+				FA4121A318CCF0E5003C345C /* Categories */,
+				FA41219418CCEF97003C345C /* Base */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		FA41219F18CCF04A003C345C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				788FA64A18F5FD8D00F2E801 /* PZHomeViewController.h */,
+				788FA64B18F5FD8D00F2E801 /* PZHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FA4121A318CCF0E5003C345C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				788FA63E18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.h */,
+				788FA63F18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FA8DAA3418C799570094495C = {
+			isa = PBXGroup;
+			children = (
+				FA8DAA4618C799570094495C /* Petzi */,
+				7827B9DA18F5FA3D00572F2D /* PetziTests */,
+				FA8DAA3F18C799570094495C /* Frameworks */,
+				FA8DAA3E18C799570094495C /* Products */,
+				BBDD2CC56445488D99C190B7 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8DAA3E18C799570094495C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7827B9B818F5FA3C00572F2D /* Petzi.app */,
+				7827B9D318F5FA3D00572F2D /* PetziTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8DAA3F18C799570094495C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA74363E18E489170031CE34 /* CoreBluetooth.framework */,
+				FA74363C18E489100031CE34 /* CoreLocation.framework */,
+				FA8DAA4018C799570094495C /* Foundation.framework */,
+				FA8DAA4218C799570094495C /* CoreGraphics.framework */,
+				FA8DAA4418C799570094495C /* UIKit.framework */,
+				FA8DAA5918C799570094495C /* XCTest.framework */,
+				7D6C634A26394AADB53F656C /* libPods.a */,
+				7827B9BC18F5FA3C00572F2D /* CoreData.framework */,
+				780CF89C18F5F77100E31FE4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8DAA4618C799570094495C /* Petzi */ = {
+			isa = PBXGroup;
+			children = (
+				788FA66918F6014200F2E801 /* Images.xcassets */,
+				788FA66618F600E100F2E801 /* PZAppDelegate.h */,
+				788FA66718F600E100F2E801 /* PZAppDelegate.m */,
+				FA41219E18CCF034003C345C /* Common */,
+				FA41219218CCEF38003C345C /* Screens */,
+				FA8DAA4718C799570094495C /* Supporting Files */,
+			);
+			name = Petzi;
+			path = HereByApp;
+			sourceTree = "<group>";
+		};
+		FA8DAA4718C799570094495C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788FA67118F605D300F2E801 /* Petzi-Prefix.pch */,
+				788FA66D18F601A800F2E801 /* main.m */,
+				788FA66B18F6018600F2E801 /* Petzi-Info.plist */,
+				780CF7EF18F5EAFE00E31FE4 /* Environments.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC3379B18DE6B8A00E1758B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				788FA64718F5FD7A00F2E801 /* PZLoginViewController.h */,
+				788FA64818F5FD7A00F2E801 /* PZLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FAC3379C18DE6B8F00E1758B /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		FAC337C718DE6FDB00E1758B /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				788FA64F18F5FDA900F2E801 /* PZCreateAlertViewController.h */,
+				788FA65018F5FDA900F2E801 /* PZCreateAlertViewController.m */,
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		FAD4E5AD18EA529F00C664D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAD4E5E318EB06B300C664D4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7827B9B718F5FA3C00572F2D /* Petzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827B9E218F5FA3D00572F2D /* Build configuration list for PBXNativeTarget "Petzi" */;
+			buildPhases = (
+				789F922818F5FB7500A899A5 /* Check Pods Manifest.lock */,
+				7827B9B418F5FA3C00572F2D /* Sources */,
+				7827B9B518F5FA3C00572F2D /* Frameworks */,
+				7827B9B618F5FA3C00572F2D /* Resources */,
+				283C3EA99C174C3ABB507FE2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petzi;
+			productName = Petzi;
+			productReference = 7827B9B818F5FA3C00572F2D /* Petzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7827B9D218F5FA3D00572F2D /* PetziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7827B9E718F5FA3D00572F2D /* Build configuration list for PBXNativeTarget "PetziTests" */;
+			buildPhases = (
+				7827B9CF18F5FA3D00572F2D /* Sources */,
+				7827B9D018F5FA3D00572F2D /* Frameworks */,
+				7827B9D118F5FA3D00572F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7827B9D918F5FA3D00572F2D /* PBXTargetDependency */,
+			);
+			name = PetziTests;
+			productName = PetziTests;
+			productReference = 7827B9D318F5FA3D00572F2D /* PetziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8DAA3518C799570094495C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Premier Mobile Systems";
+				TargetAttributes = {
+					7827B9D218F5FA3D00572F2D = {
+						TestTargetID = 7827B9B718F5FA3C00572F2D;
+					};
+				};
+			};
+			buildConfigurationList = FA8DAA3818C799570094495C /* Build configuration list for PBXProject "Petzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8DAA3418C799570094495C;
+			productRefGroup = FA8DAA3E18C799570094495C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7827B9B718F5FA3C00572F2D /* Petzi */,
+				7827B9D218F5FA3D00572F2D /* PetziTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7827B9B618F5FA3C00572F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788FA65518F5FF2B00F2E801 /* Environments.plist in Resources */,
+				788FA66A18F6014200F2E801 /* Images.xcassets in Resources */,
+				788FA65418F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard in Resources */,
+				788FA66C18F6018600F2E801 /* Petzi-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827B9D118F5FA3D00572F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		283C3EA99C174C3ABB507FE2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789F922818F5FB7500A899A5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\ncat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\nexit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7827B9B418F5FA3C00572F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788FA66E18F601A800F2E801 /* main.m in Sources */,
+				788FA64C18F5FD8D00F2E801 /* PZHomeViewController.m in Sources */,
+				788FA64618F5FD6400F2E801 /* PZViewControllerBase.m in Sources */,
+				788FA66818F600E100F2E801 /* PZAppDelegate.m in Sources */,
+				788FA64918F5FD7A00F2E801 /* PZLoginViewController.m in Sources */,
+				788FA64018F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m in Sources */,
+				788FA65218F5FDA900F2E801 /* PZCreateAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7827B9CF18F5FA3D00572F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7827B9E118F5FA3D00572F2D /* PetziTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7827B9D918F5FA3D00572F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7827B9B718F5FA3C00572F2D /* Petzi */;
+			targetProxy = 7827B9D818F5FA3D00572F2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7827B9E318F5FA3D00572F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Petzi/Petzi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7827B9E418F5FA3D00572F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Petzi/Petzi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7827B9E518F5FA3D00572F2D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Petzi/Petzi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		7827B9E618F5FA3D00572F2D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD2CC56445488D99C190B7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Petzi/Petzi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		7827B9E818F5FA3D00572F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PetziTests/PetziTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7827B9E918F5FA3D00572F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PetziTests/PetziTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		7827B9EA18F5FA3D00572F2D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PetziTests/PetziTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		7827B9EB18F5FA3D00572F2D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Petzi.app/Petzi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petzi/Petzi-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "PetziTests/PetziTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AdHoc;
+		};
+		FA4DBCA918E2038F0029286D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		FA4DBCAC18E203970029286D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		FA8DAA6718C799580094495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8DAA6818C799580094495C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7827B9E218F5FA3D00572F2D /* Build configuration list for PBXNativeTarget "Petzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827B9E318F5FA3D00572F2D /* Debug */,
+				7827B9E418F5FA3D00572F2D /* Release */,
+				7827B9E518F5FA3D00572F2D /* Distribution */,
+				7827B9E618F5FA3D00572F2D /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7827B9E718F5FA3D00572F2D /* Build configuration list for PBXNativeTarget "PetziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7827B9E818F5FA3D00572F2D /* Debug */,
+				7827B9E918F5FA3D00572F2D /* Release */,
+				7827B9EA18F5FA3D00572F2D /* Distribution */,
+				7827B9EB18F5FA3D00572F2D /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8DAA3818C799570094495C /* Build configuration list for PBXProject "Petzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8DAA6718C799580094495C /* Debug */,
+				FA8DAA6818C799580094495C /* Release */,
+				FA4DBCAC18E203970029286D /* Distribution */,
+				FA4DBCA918E2038F0029286D /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8DAA3518C799570094495C /* Project object */;
+}

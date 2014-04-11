@@ -30,11 +30,8 @@
     #import "MyiOSHelpers.h"
     #import "MyMeteor.h"
 
-    #import "MyDrawerViewController+PZAdditions.h"
 
-    #import "MYEnvironmentConfig+HereBy.h"
-    #import "UITabBarController+HereBy.h"
-
+    #import "MYEnvironmentConfig+Petzy.h"
 
 
 #endif
