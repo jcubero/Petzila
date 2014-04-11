@@ -18,5 +18,5 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
+@property (nonatomic) BOOL authenticated;
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "PZViewControllerBase.h"
+#import "PZColors.h"
 
 @interface PZViewControllerBase ()
 
@@ -26,10 +27,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-    [self setupStandardDrawers];
+    self.view.backgroundColor =  [PZColors getColorForType:PZColorsBossanova1];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
 
 - (void)didReceiveMemoryWarning
 {

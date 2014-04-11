@@ -16,17 +16,25 @@
 		7827B9D618F5FA3D00572F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAA4418C799570094495C /* UIKit.framework */; };
 		7827B9D718F5FA3D00572F2D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7827B9BC18F5FA3C00572F2D /* CoreData.framework */; };
 		7827B9E118F5FA3D00572F2D /* PetziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7827B9E018F5FA3D00572F2D /* PetziTests.m */; };
+		785A66DF18F77C6F00767EA3 /* petzi-640-login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 785A66DE18F77C6F00767EA3 /* petzi-640-login.jpg */; };
+		785A66E318F78BE500767EA3 /* PZColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A66E218F78BE500767EA3 /* PZColors.m */; };
 		788FA64018F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA63F18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m */; };
 		788FA64618F5FD6400F2E801 /* PZViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA64418F5FD6400F2E801 /* PZViewControllerBase.m */; };
-		788FA64918F5FD7A00F2E801 /* PZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA64818F5FD7A00F2E801 /* PZLoginViewController.m */; };
-		788FA64C18F5FD8D00F2E801 /* PZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA64B18F5FD8D00F2E801 /* PZHomeViewController.m */; };
-		788FA65218F5FDA900F2E801 /* PZCreateAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA65018F5FDA900F2E801 /* PZCreateAlertViewController.m */; };
 		788FA65418F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788FA65318F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard */; };
 		788FA65518F5FF2B00F2E801 /* Environments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 780CF7EF18F5EAFE00E31FE4 /* Environments.plist */; };
 		788FA66818F600E100F2E801 /* PZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA66718F600E100F2E801 /* PZAppDelegate.m */; };
 		788FA66A18F6014200F2E801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788FA66918F6014200F2E801 /* Images.xcassets */; };
 		788FA66C18F6018600F2E801 /* Petzi-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 788FA66B18F6018600F2E801 /* Petzi-Info.plist */; };
 		788FA66E18F601A800F2E801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788FA66D18F601A800F2E801 /* main.m */; };
+		78A4E0C018F7718700B6DD05 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0BF18F7718700B6DD05 /* LoginViewController.m */; };
+		78A4E0C318F7719F00B6DD05 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0C218F7719F00B6DD05 /* RootViewController.m */; };
+		78A4E0C718F771B700B6DD05 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0C618F771B700B6DD05 /* ProfileViewController.m */; };
+		78A4E0CA18F771C600B6DD05 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0C918F771C600B6DD05 /* User.m */; };
+		78A4E0D218F775B600B6DD05 /* PZLeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0CD18F775B600B6DD05 /* PZLeftDrawerViewController.m */; };
+		78A4E0D318F775B600B6DD05 /* PZRightDrawerDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0CF18F775B600B6DD05 /* PZRightDrawerDefaultViewController.m */; };
+		78A4E0D418F775B600B6DD05 /* MyDrawerViewController+PZAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0D118F775B600B6DD05 /* MyDrawerViewController+PZAdditions.m */; };
+		78A4E0DA18F7773E00B6DD05 /* PZHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0D718F7773E00B6DD05 /* PZHomeTabBarController.m */; };
+		78A4E0DB18F7773E00B6DD05 /* UITabBarController+Petzi.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0D918F7773E00B6DD05 /* UITabBarController+Petzi.m */; };
 		E6B544876D654E9B8236EBCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6C634A26394AADB53F656C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,16 +58,13 @@
 		7827B9D318F5FA3D00572F2D /* PetziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7827B9DC18F5FA3D00572F2D /* PetziTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetziTests-Info.plist"; sourceTree = "<group>"; };
 		7827B9E018F5FA3D00572F2D /* PetziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetziTests.m; sourceTree = "<group>"; };
+		785A66DE18F77C6F00767EA3 /* petzi-640-login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "petzi-640-login.jpg"; sourceTree = SOURCE_ROOT; };
+		785A66E118F78BE500767EA3 /* PZColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZColors.h; sourceTree = SOURCE_ROOT; };
+		785A66E218F78BE500767EA3 /* PZColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZColors.m; sourceTree = SOURCE_ROOT; };
 		788FA63E18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MYEnvironmentConfig+Petzy.h"; path = "Petzi/MYEnvironmentConfig+Petzy.h"; sourceTree = SOURCE_ROOT; };
 		788FA63F18F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MYEnvironmentConfig+Petzy.m"; path = "Petzi/MYEnvironmentConfig+Petzy.m"; sourceTree = SOURCE_ROOT; };
 		788FA64318F5FD6400F2E801 /* PZViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZViewControllerBase.h; path = Petzi/PZViewControllerBase.h; sourceTree = SOURCE_ROOT; };
 		788FA64418F5FD6400F2E801 /* PZViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZViewControllerBase.m; path = Petzi/PZViewControllerBase.m; sourceTree = SOURCE_ROOT; };
-		788FA64718F5FD7A00F2E801 /* PZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZLoginViewController.h; path = Petzi/PZLoginViewController.h; sourceTree = SOURCE_ROOT; };
-		788FA64818F5FD7A00F2E801 /* PZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZLoginViewController.m; path = Petzi/PZLoginViewController.m; sourceTree = SOURCE_ROOT; };
-		788FA64A18F5FD8D00F2E801 /* PZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZHomeViewController.h; path = Petzi/PZHomeViewController.h; sourceTree = SOURCE_ROOT; };
-		788FA64B18F5FD8D00F2E801 /* PZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZHomeViewController.m; path = Petzi/PZHomeViewController.m; sourceTree = SOURCE_ROOT; };
-		788FA64F18F5FDA900F2E801 /* PZCreateAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZCreateAlertViewController.h; path = Petzi/PZCreateAlertViewController.h; sourceTree = SOURCE_ROOT; };
-		788FA65018F5FDA900F2E801 /* PZCreateAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZCreateAlertViewController.m; path = Petzi/PZCreateAlertViewController.m; sourceTree = SOURCE_ROOT; };
 		788FA65318F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
 		788FA66618F600E100F2E801 /* PZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PZAppDelegate.h; path = Petzi/PZAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		788FA66718F600E100F2E801 /* PZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PZAppDelegate.m; path = Petzi/PZAppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -67,6 +72,24 @@
 		788FA66B18F6018600F2E801 /* Petzi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Petzi-Info.plist"; sourceTree = SOURCE_ROOT; };
 		788FA66D18F601A800F2E801 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		788FA67118F605D300F2E801 /* Petzi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Petzi-Prefix.pch"; path = "Petzi/Petzi-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		78A4E0BE18F7718700B6DD05 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		78A4E0BF18F7718700B6DD05 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		78A4E0C118F7719F00B6DD05 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = SOURCE_ROOT; };
+		78A4E0C218F7719F00B6DD05 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = SOURCE_ROOT; };
+		78A4E0C518F771B700B6DD05 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		78A4E0C618F771B700B6DD05 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		78A4E0C818F771C600B6DD05 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = SOURCE_ROOT; };
+		78A4E0C918F771C600B6DD05 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = SOURCE_ROOT; };
+		78A4E0CC18F775B600B6DD05 /* PZLeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZLeftDrawerViewController.h; sourceTree = SOURCE_ROOT; };
+		78A4E0CD18F775B600B6DD05 /* PZLeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZLeftDrawerViewController.m; sourceTree = SOURCE_ROOT; };
+		78A4E0CE18F775B600B6DD05 /* PZRightDrawerDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZRightDrawerDefaultViewController.h; sourceTree = SOURCE_ROOT; };
+		78A4E0CF18F775B600B6DD05 /* PZRightDrawerDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZRightDrawerDefaultViewController.m; sourceTree = SOURCE_ROOT; };
+		78A4E0D018F775B600B6DD05 /* MyDrawerViewController+PZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyDrawerViewController+PZAdditions.h"; sourceTree = SOURCE_ROOT; };
+		78A4E0D118F775B600B6DD05 /* MyDrawerViewController+PZAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyDrawerViewController+PZAdditions.m"; sourceTree = SOURCE_ROOT; };
+		78A4E0D618F7773E00B6DD05 /* PZHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZHomeTabBarController.h; sourceTree = SOURCE_ROOT; };
+		78A4E0D718F7773E00B6DD05 /* PZHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZHomeTabBarController.m; sourceTree = SOURCE_ROOT; };
+		78A4E0D818F7773E00B6DD05 /* UITabBarController+Petzi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Petzi.h"; sourceTree = SOURCE_ROOT; };
+		78A4E0D918F7773E00B6DD05 /* UITabBarController+Petzi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Petzi.m"; sourceTree = SOURCE_ROOT; };
 		7D6C634A26394AADB53F656C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDD2CC56445488D99C190B7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FA74363C18E489100031CE34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -138,9 +161,68 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		785A66DC18F77B4E00767EA3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				785A66DD18F77B5400767EA3 /* Login */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		785A66DD18F77B5400767EA3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				785A66DE18F77C6F00767EA3 /* petzi-640-login.jpg */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		78A4E0C418F771A800B6DD05 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				78A4E0C518F771B700B6DD05 /* ProfileViewController.h */,
+				78A4E0C618F771B700B6DD05 /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		78A4E0CB18F7759600B6DD05 /* Drawers */ = {
+			isa = PBXGroup;
+			children = (
+				78A4E0CC18F775B600B6DD05 /* PZLeftDrawerViewController.h */,
+				78A4E0CD18F775B600B6DD05 /* PZLeftDrawerViewController.m */,
+				78A4E0CE18F775B600B6DD05 /* PZRightDrawerDefaultViewController.h */,
+				78A4E0CF18F775B600B6DD05 /* PZRightDrawerDefaultViewController.m */,
+				78A4E0D018F775B600B6DD05 /* MyDrawerViewController+PZAdditions.h */,
+				78A4E0D118F775B600B6DD05 /* MyDrawerViewController+PZAdditions.m */,
+			);
+			name = Drawers;
+			sourceTree = "<group>";
+		};
+		78A4E0D518F7772F00B6DD05 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				78A4E0D618F7773E00B6DD05 /* PZHomeTabBarController.h */,
+				78A4E0D718F7773E00B6DD05 /* PZHomeTabBarController.m */,
+				78A4E0D818F7773E00B6DD05 /* UITabBarController+Petzi.h */,
+				78A4E0D918F7773E00B6DD05 /* UITabBarController+Petzi.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		78A4E0DC18F7781C00B6DD05 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				78A4E0C818F771C600B6DD05 /* User.h */,
+				78A4E0C918F771C600B6DD05 /* User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		FA21924A18CD001000F3E275 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				78A4E0C418F771A800B6DD05 /* Profile */,
 				780CF80618F5F1F400E31FE4 /* ForgotPassword */,
 				FAC3379C18DE6B8F00E1758B /* Registration */,
 				FAC3379B18DE6B8A00E1758B /* Login */,
@@ -175,6 +257,8 @@
 				FAD4E5AD18EA529F00C664D4 /* Model */,
 				FA4121A318CCF0E5003C345C /* Categories */,
 				FA41219418CCEF97003C345C /* Base */,
+				785A66E118F78BE500767EA3 /* PZColors.h */,
+				785A66E218F78BE500767EA3 /* PZColors.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -182,8 +266,8 @@
 		FA41219F18CCF04A003C345C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				788FA64A18F5FD8D00F2E801 /* PZHomeViewController.h */,
-				788FA64B18F5FD8D00F2E801 /* PZHomeViewController.m */,
+				78A4E0C118F7719F00B6DD05 /* RootViewController.h */,
+				78A4E0C218F7719F00B6DD05 /* RootViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -250,6 +334,7 @@
 		FA8DAA4718C799570094495C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				785A66DC18F77B4E00767EA3 /* Images */,
 				788FA67118F605D300F2E801 /* Petzi-Prefix.pch */,
 				788FA66D18F601A800F2E801 /* main.m */,
 				788FA66B18F6018600F2E801 /* Petzi-Info.plist */,
@@ -261,8 +346,8 @@
 		FAC3379B18DE6B8A00E1758B /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				788FA64718F5FD7A00F2E801 /* PZLoginViewController.h */,
-				788FA64818F5FD7A00F2E801 /* PZLoginViewController.m */,
+				78A4E0BE18F7718700B6DD05 /* LoginViewController.h */,
+				78A4E0BF18F7718700B6DD05 /* LoginViewController.m */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -277,8 +362,6 @@
 		FAC337C718DE6FDB00E1758B /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
-				788FA64F18F5FDA900F2E801 /* PZCreateAlertViewController.h */,
-				788FA65018F5FDA900F2E801 /* PZCreateAlertViewController.m */,
 			);
 			name = Alerts;
 			sourceTree = "<group>";
@@ -286,6 +369,7 @@
 		FAD4E5AD18EA529F00C664D4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				78A4E0DC18F7781C00B6DD05 /* User */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,6 +377,8 @@
 		FAD4E5E318EB06B300C664D4 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				78A4E0D518F7772F00B6DD05 /* TabBar */,
+				78A4E0CB18F7759600B6DD05 /* Drawers */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -344,7 +430,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HB;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Premier Mobile Systems";
 				TargetAttributes = {
 					7827B9D218F5FA3D00572F2D = {
@@ -379,6 +465,7 @@
 				788FA65518F5FF2B00F2E801 /* Environments.plist in Resources */,
 				788FA66A18F6014200F2E801 /* Images.xcassets in Resources */,
 				788FA65418F5FF1600F2E801 /* MainStoryboard_iPhone.storyboard in Resources */,
+				785A66DF18F77C6F00767EA3 /* petzi-640-login.jpg in Resources */,
 				788FA66C18F6018600F2E801 /* Petzi-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,13 +517,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A4E0CA18F771C600B6DD05 /* User.m in Sources */,
 				788FA66E18F601A800F2E801 /* main.m in Sources */,
-				788FA64C18F5FD8D00F2E801 /* PZHomeViewController.m in Sources */,
+				78A4E0D318F775B600B6DD05 /* PZRightDrawerDefaultViewController.m in Sources */,
+				785A66E318F78BE500767EA3 /* PZColors.m in Sources */,
 				788FA64618F5FD6400F2E801 /* PZViewControllerBase.m in Sources */,
+				78A4E0C318F7719F00B6DD05 /* RootViewController.m in Sources */,
 				788FA66818F600E100F2E801 /* PZAppDelegate.m in Sources */,
-				788FA64918F5FD7A00F2E801 /* PZLoginViewController.m in Sources */,
+				78A4E0D218F775B600B6DD05 /* PZLeftDrawerViewController.m in Sources */,
+				78A4E0C718F771B700B6DD05 /* ProfileViewController.m in Sources */,
 				788FA64018F5FD4A00F2E801 /* MYEnvironmentConfig+Petzy.m in Sources */,
-				788FA65218F5FDA900F2E801 /* PZCreateAlertViewController.m in Sources */,
+				78A4E0C018F7718700B6DD05 /* LoginViewController.m in Sources */,
+				78A4E0DB18F7773E00B6DD05 /* UITabBarController+Petzi.m in Sources */,
+				78A4E0DA18F7773E00B6DD05 /* PZHomeTabBarController.m in Sources */,
+				78A4E0D418F775B600B6DD05 /* MyDrawerViewController+PZAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +717,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -658,7 +751,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -693,7 +785,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -734,7 +825,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;

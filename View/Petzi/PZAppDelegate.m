@@ -3,10 +3,13 @@
 //  Petzi
 //
 //  Created by Joaquin on 09/04/14.
-//  Copyright (c) 2014 Premier Mobile Systems. All rights reserved.
+//  Copyright (c) 2014 Petzila. All rights reserved.
 //
 
 #import "PZAppDelegate.h"
+#import "User.h"
+#import "PZColors.h"
+
 @implementation PZAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -15,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    User *userObj = [[User alloc] init];
+    self.authenticated = [userObj userAuthenticated];
+    
     [DDTTYLogger sharedInstance].logFormatter = [[PrettyClassInformationLogFormatter alloc] init];
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
@@ -24,17 +30,14 @@
     [MYMeteorClient setMeteorURLString:[[MYEnvironmentConfig sharedConfig] meteorURLString]];
     [MYMeteorClient sharedClient];
     
-    // Init Controllers
-//    [PZSuperNetworkController sharedController];
-//    [PZPostController sharedController];
-    
     [UIStoryboard setMainStoryboardName:@"MainStoryboard_iPhone"];
     
-//    [MYDrawerViewController setLeftDrawerViewController:[[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"HBLeftDrawerViewController"]];
-//    
-//    [MYDrawerViewController setCenterViewController:[[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"HBHomeTabBarController"]];
-//    
-//    [MYDrawerViewController setRightDrawerViewController:[[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"HBNetworkTableViewControllerBase"]];
+    // [MYDrawerViewController setLeftDrawerViewController:[[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"PZLeftDrawerViewController"]];
+    
+    // [MYDrawerViewController setCenterViewController:[[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"PZHomeTabBarController"]];
+    
+    //    [MYDrawerViewController setRightDrawerViewController:[[UIStoryboard mainStoryboard] instantiateViewControllerWithIdentifier:@"PZNetworkTableViewControllerBase"]];
+    
     
     UINavigationController * initialViewController = [[UIStoryboard mainStoryboard] instantiateInitialViewController];
     
@@ -43,8 +46,14 @@
     self.window.rootViewController = initialViewController;
     
     [self.window makeKeyAndVisible];
+
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
     
-    return YES;
+    // self.window.tintColor = [PZColors getColorForType:PZColorsTrendyPink];
+
+    
+     // Override point for customization after application launch.
+     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -1,18 +1,18 @@
 //
-//  PZCreateAlertViewController.m
+//  PZRightDrawerDefaultViewController.m
 //  HereByApp
 //
-//  Created by Joaquin Cubero on 3/22/14.
-//  Copyright (c) 2014 Petzila. All rights reserved.
+//  Created by Vincil Bishop on 3/9/14.
+//  Copyright (c) 2014 Premier Mobile Systems. All rights reserved.
 //
 
-#import "PZCreateAlertViewController.h"
+#import "PZRightDrawerDefaultViewController.h"
 
-@interface PZCreateAlertViewController ()
+@interface PZRightDrawerDefaultViewController ()
 
 @end
 
-@implementation PZCreateAlertViewController
+@implementation PZRightDrawerDefaultViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
